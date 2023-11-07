@@ -27,7 +27,7 @@ const page = () => {
                 The contact form is currently inactive. Get a functional and
                 working contact form with Ajax & PHP in a few minutes. Just copy
                 and paste the files, add a little code and you&apos;re done.
-                Download Now.
+                Downloads Now.
               </p>
               <form action="#" className="space-y-8 py-10">
                 <div className="flex gap-2 flex-col xl:flex-row lg:flex-row md:flex-col">
