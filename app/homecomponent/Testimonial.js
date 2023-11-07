@@ -114,13 +114,13 @@ const Testimonial = () => {
       <div className="relative">
         <div className="glider-arrows flex flex-col items-center justify-center gap-3">
           <button
-            className=" absolute right-[1.5rem] bottom-[19rem] glider-arrow  bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
+            className=" absolute right-[1.5rem] xl:bottom-[19rem]  lg:bottom-[19rem] md:bottom-[19rem] bottom-3 glider-arrow  bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
             onClick={handleGliderPrev}
           >
             <GoArrowLeft size={32} />
           </button>
           <button
-            className="absolute right-[1.5rem]  bottom-[23rem] glider-arrow   bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
+            className="absolute right-[1.5rem]  xl:bottom-[24rem]  lg:bottom-[24rem] md:bottom-[24rem] bottom-24 glider-arrow   bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
             onClick={handleGliderNext}
           >
             <GoArrowRight size={32} />
@@ -142,11 +142,13 @@ const PopularDestinationCard = (props) => {
       }}
       className="h-[100vh] py-10"
     >
-      <div className=" py-28 px-10">
-        <div className="text-white py-16 flex flex-col gap-6 justify-start items-start  px-10">
+      <div className=" py-28 xl:px-10 lg:px-10 md:px-5 px-1">
+        <div className="text-white py-16 flex flex-col gap-6 justify-start items-start  xl:px-10 lg:px-10 md:px-5 px-1">
           {/* text */}
           <h1 className="text-[24px] font-bold text-[red]">{props.name}</h1>
-          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-white ">{props.Founder}</h1>
+          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-white ">
+            {props.Founder}
+          </h1>
           <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-[red] flex gap-2 ">
             {props.Founders} <span className="text-white">{props.span}</span>
           </h1>
