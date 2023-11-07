@@ -20,12 +20,16 @@ const Skill = () => {
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col gap-5">
           <div>
             <h2 className="text-[red] text-[20px] font-medium">OUR SKILLS</h2>
-            <h1 className="text-[38px] font-bold leading-normal pr-8">
+            <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl font-bold leading-normal pr-8">
               We Offers You
               <span className="text-[red] "> Best </span>
             </h1>
-            <h1 className="text-[38px]  font-bold leading-normal pr-8">
-              <span className=" text-[red]"> Transportation</span>Service
+            <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl  font-bold leading-normal pr-8">
+              <span className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-[red]">
+                {" "}
+                Transportation
+              </span>
+              Service
             </h1>
           </div>
           <p className="leading-normal text-black text-[18px] font-medium">
