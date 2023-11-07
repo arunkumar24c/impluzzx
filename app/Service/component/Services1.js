@@ -103,7 +103,7 @@ const Services1 = () => {
       </div>
       <div className="brand-container px-5 py-10">
         <div className="flex flex-col items-center">
-          <h2 className="text-[red]">// OUR SERVICES //</h2>
+          <h2 className="text-[red]"> OUR SERVICES</h2>
           <h1>Explore Our Services</h1>
           {/* card */}
           <div className="flex flex-col xl:flex-row lg:flex-row md:flex-col justify-between gap-8 py-16 ">
@@ -136,6 +136,7 @@ const Services1 = () => {
                         width={100}
                         height={100}
                         className="w-full h-full"
+                        alt="#"
                       />
                     </div>
                     <div className="flex flex-col gap-4 w-full xl:w-1/2 md:w-full lg:w-1/2">

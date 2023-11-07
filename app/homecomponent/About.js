@@ -55,7 +55,7 @@ const About = () => {
         </div>
       </div>
       {/* full */}
-      <div >
+      <div>
         <p className="leading-normal text-justify text-[18px] text-black font-medium">
           We shall provide products and services that meet or exceed the
           expectations of our clients, while maintaining standards that are in
@@ -74,8 +74,8 @@ const About = () => {
           information about our local markets and also markets worldwide.
         </p>
         <p className="leading-normal text-justify text-[18px] text-black font-medium py-5">
-          impulzz Cosmo impex Pvt Ltd has built it's connections across world
-          wide markets to help you source the “right produce at the right
+          impulzz Cosmo impex Pvt Ltd has built it&apos;s connections across
+          world wide markets to help you source the “right produce at the right
           quality and price“. We Invite You to Join the Path to Prosperity,
           Profit , Perfection and Peace Thank you.
         </p>
