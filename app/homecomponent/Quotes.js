@@ -21,7 +21,7 @@ const Quotes = () => {
  const handleSubmit = (e) => {
    e.preventDefault();
 
-   console.log(formData);
+  
  };
   return (
     <div className="brand-container px-5 py-16">
