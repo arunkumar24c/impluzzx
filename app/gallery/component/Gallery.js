@@ -42,14 +42,15 @@ const Gallery = () => {
     <div>
       <div className="brand-container px-5 py-10 shadow-md">
         {" "}
-        
         <h1 className="text-center text-[] text-[red] py-10">Gallery Page</h1>
         <div className="  px-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 gap-8 py-10">
           {imageSources.map(({ id, src }) => (
             <div key={id} className="relative shadow-lg  ">
               {" "}
-              
-              <div className="cursor-pointer shadow-white border border-black" onClick={() => openImage(src)}>
+              <div
+                className="cursor-pointer shadow-white border border-black"
+                onClick={() => openImage(src)}
+              >
                 <Image
                   width={300}
                   height={500}
@@ -67,7 +68,7 @@ const Gallery = () => {
           ))}
         </div>
       </div>
-
+      {/* selected image  */}
       {selectedImage && (
         <div
           className="fixed top-0 left-0 w-full h-full bg-transparent backdrop-blur-3xl z-50 flex items-center justify-center cursor-pointer"
@@ -75,10 +76,10 @@ const Gallery = () => {
         >
           <div className="w-full h-full p-32 mx-auto shadow-lg">
             {" "}
-            {/* Add shadow to the selected image container */}
             <Image
-              width={300}
-              height={500}
+              
+              layout="fill" 
+              objectFit="contain"
               className="w-full "
               src={selectedImage}
               alt="selected-image"
