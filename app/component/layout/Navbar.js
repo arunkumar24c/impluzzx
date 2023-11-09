@@ -60,7 +60,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow w-full fixed top-0 left-0 z-[9999]">
-      <div className="md:flex items-center justify-between bg-white  md:px-10 px-7 py-9">
+      <div className="lg:flex items-center justify-between bg-white  md:px-10 px-7 py-9">
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <Link href="/">
             <Image
@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
         <div
           onClick={toggleDrawer}
-          className="absolute right-8 top-[2.5rem] cursor-pointer md:hidden lg:hidden w-7 h-7"
+          className="absolute right-8 top-[2.5rem] cursor-pointer  lg:hidden w-7 h-7"
         >
           {isOpen ? (
             <GrClose className="text-black" size={20} />
@@ -83,13 +83,13 @@ const Navbar = () => {
         </div>
         <ul
           ref={dropdownRef}
-          className={`mt-2 gap-4 md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white font-bold md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition duration-500 ease-in  ${
+          className={`mt-2 gap-4 lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static bg-white font-bold lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition duration-500 ease-in  ${
             isOpen ? "top-12" : "top-[-490px]"
           }`}
         >
           {Links.map((link) => (
             <li
-              className="md:ml-8 font-semibold md:my-0 my-7 relative hover:text-[18px]"
+              className="lg:ml-8 font-semibold lg:my-0 my-7 relative hover:text-[18px]"
               key={link.name}
             >
               {link.name === "Pages" ? (

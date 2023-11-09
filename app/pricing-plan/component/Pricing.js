@@ -32,42 +32,77 @@ const Pricing = () => {
               </div>
               <hr />
               <div className="flex flex-col gap-3 px-5 py-4">
+                <h3>Lead Management</h3>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Lead Tracking
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Lead Qualification
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Lead Scoring
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Custom Fields
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Duplicate Blocking
                 </p>
-
+                <hr className="border-black" />
+                <h3>Sales Management</h3>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Smart Views
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Sales Tracking
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Tasks and Follow-ups
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Conversation Tracking
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Sales Reporting
+                </p>
                 <div className="relative cursor-pointer group">
                   <div className="mt-2">
-                    <p className="flex items-center">
-                      <BsArrowRight className="" size={25} />
-                      <span className="absolute text-black py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
+                    <p className="flex items-center ">
+                      <BsArrowRight
+                        className="bg-[red] rounded-s-md h-9 w-9 text-white px-2"
+                        size={25}
+                      />
+                      <span className="absolute text-white rounded-e-md text-[18px] font-semibold bg-[red] py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
                         Read more
                       </span>
                     </p>
@@ -78,49 +113,79 @@ const Pricing = () => {
             {/* 2 */}
             <div className="flex flex-col justify-center gap-4 bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition duration-300 py-5 px-10 w-full">
               <div className="flex flex-col gap-2">
-                <p className="text-[red] text-[18px]">Basic Plan</p>
+                <p className="text-[red] text-[18px]">Pro Plan</p>
                 <h1 className="flex items-center text-[25px]">
-                  $<span className="text-[45px]">49.00</span>/ Month
+                  $<span className="text-[45px]">249.00</span>/ Month
                 </h1>
               </div>
               <hr />
               <div className="flex flex-col gap-3 px-5 py-4">
+                <h3>Everything in Lite, plus Email Campaigns</h3>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Drag-and-drop Builder
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Responsive Templates
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Email Personalization
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Email Campaign Reports
+                </p>
+                <hr className="border-black" />
+                <h3>Advanced Lead Management</h3>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Lead Distribution
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Custom Tabs
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Custom Actions
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Sales Notifications
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Role-based access
                 </p>
 
                 <div className="relative cursor-pointer group">
                   <div className="mt-2">
-                    <p className="flex items-center">
-                      <BsArrowRight className="" size={25} />
-                      <span className="absolute text-black py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
+                    <p className="flex items-center ">
+                      <BsArrowRight
+                        className="bg-[red] rounded-s-md h-9 w-9 text-white px-2"
+                        size={25}
+                      />
+                      <span className="absolute text-white rounded-e-md text-[18px] font-semibold bg-[red] py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
                         Read more
                       </span>
                     </p>
@@ -131,49 +196,79 @@ const Pricing = () => {
             {/* 3 */}
             <div className="flex flex-col justify-center gap-4 bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition duration-300 py-5 px-10 w-full">
               <div className="flex flex-col gap-2">
-                <p className="text-[red] text-[18px]">Basic Plan</p>
+                <p className="text-[red] text-[18px]">Super Plan</p>
                 <h1 className="flex items-center text-[25px]">
-                  $<span className="text-[45px]">49.00</span>/ Month
+                  $<span className="text-[45px]">499.00</span>/ Month
                 </h1>
               </div>
               <hr />
               <div className="flex flex-col gap-3 px-5 py-4">
+                <h3>Everything in Pro, plus Workflow Automation</h3>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Visual Workflow Designer
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Communication Automation
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Sales Automation
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Escalations
                 </p>
                 <p className="flex items-center gap-4 text-[18px]">
                   <span className="text-[green]">
                     <TiTick size={25} />
                   </span>
-                  HTML5 & CSS3
+                  Zip Code Based Distribution
+                </p>
+                <hr className="border-black" />
+                <h3>Sales Process Designer</h3>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Customizable Sales Processes
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Dynamic Forms
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Advanced Sales Signals
+                </p>
+                <p className="flex items-center gap-4 text-[18px]">
+                  <span className="text-[green]">
+                    <TiTick size={25} />
+                  </span>
+                  Sales Sequences
                 </p>
 
                 <div className="relative cursor-pointer group">
                   <div className="mt-2">
-                    <p className="flex items-center">
-                      <BsArrowRight className="" size={25} />
-                      <span className="absolute text-black py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
+                    <p className="flex items-center ">
+                      <BsArrowRight
+                        className="bg-[red] rounded-s-md h-9 w-9 text-white px-2"
+                        size={25}
+                      />
+                      <span className="absolute text-white rounded-e-md text-[18px] font-semibold bg-[red] py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
                         Read more
                       </span>
                     </p>

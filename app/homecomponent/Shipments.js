@@ -46,9 +46,12 @@ const Shipments = () => {
               </h1>
             </div>
             <p className="text-justify font-medium text-[18px] leading-normal">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              At Impluzz, we understand the intricacies of managing shipments,
+              both domestic and international. Whether you're an established
+              business or a startup, our comprehensive shipment management
+              services are tailored to meet your unique logistics needs. We take
+              the hassle out of shipping, ensuring your goods reach their
+              destination seamlessly and on time.
             </p>
             <motion.div
               initial={{ x: -100, opacity: 0 }}

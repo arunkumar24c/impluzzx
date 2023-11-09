@@ -32,13 +32,13 @@ const Quotes = () => {
             <p className="text-[18px] font-medium text-[red]">GET A QUOTE</p>
             <div>
               <h1 className="text-[25px] font-bold text-black leading-normal">
-                Request A Free <span className="text-[red]">Quote</span>!
+                Goodbye guesswork. Hello
+                <span className="text-[red]"> sales efficiency Quote</span>!
               </h1>
             </div>
             <p className="text-justify font-medium text-[18px] leading-normal">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo erat amet
+              The end-to-end solution to drive higher productivity for
+              call-center, digital sales, and feet-on-street teams
             </p>
             <div className="flex gap-2 items-center py-7">
               <p className="bg-[red] p-4 text-white">

@@ -40,43 +40,43 @@ const Blog = () => {
                   alt="img"
                 />
                 <h1 className="text-justify leading-normal font-bold">
-                  Diam dolor est labore duo ipsum clita sed et lorem tempor duo
+                  Simplifying Global Trade: A Deep Dive into Import and Export
+                  Services by Impluzz
                 </h1>
                 <p className="text-justify leading-normal font-medium">
-                  Sadipscing labore amet rebum est et justo gubergren. Et eirmod
-                  ipsum sit diam ut magna lorem. Nonumy vero labore lorem
-                  sanctus rebum et lorem magna kasd, stet amet magna accusam
-                  consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                  sanctus et. Ipsum sit gubergren dolores et, consetetur justo
-                  invidunt at et aliquyam ut et vero clita. Diam sea sea no sed
-                  dolores diam nonumy, gubergren sit stet no diam kasd vero.
+                  In an increasingly interconnected world, import and export
+                  services play a pivotal role in the success of businesses
+                  looking to expand their horizons. At Impluzz, we are committed
+                  to simplifying the complexities of international trade and
+                  providing comprehensive solutions for your import and export
+                  needs. In this blog post, we take a closer look at the import
+                  and export services offered by Impluzz and how they can
+                  benefit your business.
                 </p>
                 <p className="text-justify leading-normal font-medium">
-                  Sadipscing labore amet rebum est et justo gubergren. Et eirmod
-                  ipsum sit diam ut magna lorem. Nonumy vero labore lorem
-                  sanctus rebum et lorem magna kasd, stet amet magna accusam
-                  consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                  sanctus et. Ipsum sit gubergren dolores et, consetetur justo
-                  invidunt at et aliquyam ut et vero clita. Diam sea sea no sed
-                  dolores diam nonumy, gubergren sit stet no diam kasd vero.
+                  Navigating the intricacies of customs clearance can be a
+                  daunting task. Impluzz's customs clearance services are
+                  designed to streamline this process. Our experts are
+                  well-versed in customs regulations and ensure that your goods
+                  cross borders smoothly. We handle all the necessary paperwork,
+                  including tariff classification, valuation, and compliance,
+                  saving you time and mitigating risks.
                 </p>
                 <p className="text-justify leading-normal font-medium">
-                  Sadipscing labore amet rebum est et justo gubergren. Et eirmod
-                  ipsum sit diam ut magna lorem. Nonumy vero labore lorem
-                  sanctus rebum et lorem magna kasd, stet amet magna accusam
-                  consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                  sanctus et. Ipsum sit gubergren dolores et, consetetur justo
-                  invidunt at et aliquyam ut et vero clita. Diam sea sea no sed
-                  dolores diam nonumy, gubergren sit stet no diam kasd vero.
+                  Efficient freight forwarding is essential for a successful
+                  import and export business. Impluzz excels in managing the
+                  logistics of your shipments. We choose the most suitable
+                  transportation methods, optimize routes, and coordinate the
+                  movement of your goods from the point of origin to their final
+                  destination. With a global network of partners, we ensure your
+                  shipments are handled with precision and care.
                 </p>
                 <p className="text-justify leading-normal font-medium">
-                  Sadipscing labore amet rebum est et justo gubergren. Et eirmod
-                  ipsum sit diam ut magna lorem. Nonumy vero labore lorem
-                  sanctus rebum et lorem magna kasd, stet amet magna accusam
-                  consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                  sanctus et. Ipsum sit gubergren dolores et, consetetur justo
-                  invidunt at et aliquyam ut et vero clita. Diam sea sea no sed
-                  dolores diam nonumy, gubergren sit stet no diam kasd vero.
+                  At Impluzz, we offer end-to-end logistics solutions to meet
+                  all your requirements. This includes packaging, labeling,
+                  documentation preparation, transportation coordination, and
+                  even last-mile delivery. We aim to provide a comprehensive
+                  package that simplifies the entire logistics process.
                 </p>
               </div>
               {/* 2nd */}
@@ -96,9 +96,12 @@ const Blog = () => {
                   <div>
                     <h3>John Doe 01 Jan 2022</h3>
                     <p className="text-justify leading-normal">
-                      Diam amet duo labore stet elitr invidunt ea clita ipsum
-                      voluptua, tempor labore accusam ipsum et no at. Kasd diam
-                      tempor rebum magna dolores sed eirmod
+                      Working with Impluzz has been a game-changer for our
+                      business. Their import and export services are top-notch,
+                      and we've seen remarkable improvements in our
+                      international trade operations. The level of expertise
+                      they bring to the table is unmatched. We can't thank the
+                      Impluzz team enough for their dedication to our success.
                     </p>
                     <button className="shadow-md border px-4 py-2 my-4">
                       Reply
@@ -119,9 +122,13 @@ const Blog = () => {
                   <div>
                     <h3>John Doe 01 Jan 2022</h3>
                     <p className="text-justify leading-normal">
-                      Diam amet duo labore stet elitr invidunt ea clita ipsum
-                      voluptua, tempor labore accusam ipsum et no at. Kasd diam
-                      tempor rebum magna dolores sed eirmod
+                      Thank you for sharing your experience with Impluzz! It's
+                      great to hear about your positive outcomes from working
+                      with them. I'm currently considering their services for my
+                      business, and your feedback certainly reinforces my
+                      confidence in their capabilities. Can you tell me more
+                      about which specific services you found most beneficial
+                      for your international trade operations
                     </p>
                     <button className="shadow-md border px-4 py-2 my-4">
                       Reply
@@ -142,9 +149,14 @@ const Blog = () => {
                   <div>
                     <h3>John Doe 01 Jan 2022</h3>
                     <p className="text-justify leading-normal">
-                      Diam amet duo labore stet elitr invidunt ea clita ipsum
-                      voluptua, tempor labore accusam ipsum et no at. Kasd diam
-                      tempor rebum magna dolores sed eirmod
+                      Absolutely, I'd be happy to share more about our
+                      experience with Impluzz. One of the standout services for
+                      us has been their customs clearance expertise. Navigating
+                      customs regulations used to be a major headache, but
+                      Impluzz made it seamless. Their team handled all the
+                      necessary documentation and ensured our goods cleared
+                      customs without a hitch. Impluzz truly delivers on their
+                      promise of making global trade easier
                     </p>
                     <button className="shadow-md border px-4 py-2 my-4">
                       Reply
@@ -238,31 +250,31 @@ const Blog = () => {
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Food and Beverages
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Energy
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Medical and Healthcare
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Machinery and Equipment
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Consumer Goods
                     </p>
                   </div>
                 </div>
@@ -279,7 +291,7 @@ const Blog = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Understanding Market Trends</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -292,7 +304,7 @@ const Blog = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Building Strong Partnerships</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -305,7 +317,7 @@ const Blog = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Customized Solutions</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -318,7 +330,7 @@ const Blog = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Logistics and Compliance</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -331,7 +343,7 @@ const Blog = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Sustainability in International Trade</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -339,42 +351,41 @@ const Blog = () => {
                 </div>
                 {/* 4th p */}
                 <div>
-                  <h2>Tag Cloud</h2>
-                  <div className="grid grid-cols-5 gap-4 py-6">
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                  <h2> Services </h2>
+                  <div className="grid grid-cols-2 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-4 py-6">
+                    <p className="px-5 text-center text-sm py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      High-Value Luxury Goods
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Energy Resources
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Automotive Products
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Green Products
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Online Marketplaces
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Art and Antiques
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Cultural and Creative Industries
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Cross-Border Services
                     </p>
                   </div>
                 </div>
                 {/* 5th */}
                 <div>
-                  <h2 className='py-2'>Plain Text</h2>
-                  <p className='text-justify leading-normal font-medium'>
-                    Vero sea et accusam justo dolor accusam lorem consetetur,
-                    dolores sit amet sit dolor clita kasd justo, diam accusam no
-                    sea ut tempor magna takimata, amet sit et diam dolor ipsum
-                    amet diam
+                  <h2 className="py-2">Article</h2>
+                  <p className="text-justify leading-normal font-medium">
+                    This category includes the import and export of agricultural
+                    products such as grains, fruits, vegetables, meat, and
+                    dairy, as well as processed food and beverages.
                   </p>
                   <p className="bg-[red] w-[9rem] text-center text-white font-semibold px-5 py-3 hover:bg-[#243238] cursor-pointer my-4">
                     Read More

@@ -33,9 +33,11 @@ const Skill = () => {
             </h1>
           </div>
           <p className="leading-normal text-black text-[18px] font-medium">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-            lorem sit clita duo justo magna dolore erat amet
+            At impulzz Cosmo impex Pvt Ltd, we take pride in providing top-tier
+            transportation services that cater to a wide range of needs and
+            requirements. With a commitment to excellence and a focus on your
+            convenience and satisfaction, we are your trusted partner in all
+            your transportation needs.
           </p>
           <div className="flex flex-col gap-6">
             {/* 1 */}

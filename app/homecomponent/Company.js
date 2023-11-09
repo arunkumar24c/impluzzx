@@ -21,10 +21,12 @@ const Company = () => {
                 </p>
               </div>
               <div>
-                <h2>Worldwide Service</h2>
+                <h2>Export Packing and Labeling</h2>
                 <p>
-                  Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem
-                  sit clita duo justo magna erat amet
+                  Proper packaging and labeling are essential for the safe and
+                  efficient transportation of goods. These services ensure that
+                  products are securely packed, labeled correctly, and comply
+                  with international shipping regulations.
                 </p>
               </div>
             </div>
@@ -36,10 +38,13 @@ const Company = () => {
                 </p>
               </div>
               <div>
-                <h2>Worldwide Service</h2>
+                <h2>Customs Clearance Services:</h2>
                 <p>
-                  Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem
-                  sit clita duo justo magna erat amet
+                  Customs clearance services involve handling all the
+                  documentation and compliance requirements needed to get goods
+                  through customs authorities at the point of entry. This
+                  includes tariff classification, valuation, and compliance with
+                  import/export regulations.
                 </p>
               </div>
             </div>
@@ -51,10 +56,11 @@ const Company = () => {
                 </p>
               </div>
               <div>
-                <h2>Worldwide Service</h2>
+                <h2>Cross-border Transportation Services</h2>
                 <p>
-                  Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem
-                  sit clita duo justo magna erat amet
+                  Transportation services specialize in cross-border trucking,
+                  facilitating the movement of goods between neighboring
+                  countries or regions.
                 </p>
               </div>
             </div>

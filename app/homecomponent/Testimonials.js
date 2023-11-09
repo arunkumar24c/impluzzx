@@ -14,7 +14,7 @@ const testimonialData = [
     stars: 3,
     location: "New York",
     quote:
-      "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet, Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+      "Impluzz's deep understanding of international trade was evident from the start. They provided invaluable insights into the global market, helping us identify new opportunities and navigate potential challenges. Their guidance and market analysis were instrumental in our decision-making process.",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const testimonialData = [
     stars: 5,
     location: "Los Angeles",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sem nec varius consectetur.",
+      "What stood out most was Impluzz's ability to tailor their services to our specific needs. They worked closely with us to develop a strategy that aligned perfectly with our business goals. This customized approach ensured that our import and export operations were both efficient and cost-effective.",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const testimonialData = [
     stars: 5,
     location: "Los Angeles",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sem nec varius consectetur.",
+      "Impluzz's commitment to reliability and punctuality was evident in every shipment they managed for us. Our goods consistently arrived on time, and their real-time tracking systems provided peace of mind. We could always count on them to deliver as promised.",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const testimonialData = [
     stars: 3,
     location: "Los Angeles",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sem nec varius consectetur.",
+      "Navigating complex customs regulations and compliance issues can be a daunting task, but Impluzz made it seem effortless. They ensured that our shipments were fully compliant with all relevant laws and regulations, saving us from potential delays and complications",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const testimonialData = [
     stars: 5,
     location: "Los Angeles",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sem nec varius consectetur.",
+      "Working with Impluzz felt like a true partnership. They were responsive, always available to answer our questions, and were proactive in addressing any concerns that arose. Their customer-centric approach made a significant difference in our overall experience",
   },
   {
     id: 6,
@@ -54,16 +54,9 @@ const testimonialData = [
     stars: 2,
     location: "Los Angeles",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sem nec varius consectetur.",
+      "We also appreciated Impluzz's commitment to sustainability. Their eco-friendly practices and energy-efficient transportation solutions aligned with our own corporate responsibility goals. It was reassuring to partner with a company that shares our values.",
   },
-  {
-    id: 7,
-    name: "Jane Smith",
-    stars: 5,
-    location: "Los Angeles",
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sem nec varius consectetur.",
-  },
+  
 ];
 
 const Testimonials = () => {
@@ -140,13 +133,13 @@ const Testimonials = () => {
       </Glider>
       <div className="glider-arrows flex items-center justify-center gap-3 relative">
         <button
-          className="glider-arrow absolute bottom-[18rem] right-[5rem]"
+          className="glider-arrow absolute bottom-[23rem] right-[5rem]"
           onClick={handleGliderPrev}
         >
           <GoArrowLeft size={32} />
         </button>
         <button
-          className="glider-arrow absolute bottom-[18rem] right-[2rem]"
+          className="glider-arrow absolute bottom-[23rem] right-[2rem]"
           onClick={handleGliderNext}
         >
           <GoArrowRight size={32}  />

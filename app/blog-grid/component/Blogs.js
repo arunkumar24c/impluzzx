@@ -12,9 +12,9 @@ const Blogs = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "How to build a website",
+      title: "Understanding Market Trends",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "To thrive in the global market, it's essential to stay updated with the latest market trends. At Impluzz, we regularly analyze market data and keep a close eye on emerging trends, allowing us to offer valuable insights to our clients. Whether it's shifts in consumer behavior, changes in regulations, or emerging technologies, we ensure you're well-informed.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -22,9 +22,9 @@ const Blogs = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "How to build a website",
+      title: "Building Strong Partnerships",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Global success often depends on strong partnerships. Impluzz has a proven track record of building and nurturing relationships with suppliers, distributors, and clients worldwide. We understand the importance of trust and collaboration in international trade, and we're dedicated to helping you forge these vital connections.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -32,9 +32,9 @@ const Blogs = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "How to build a website",
+      title: "Customized Solutions",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "No two businesses are the same, and neither should their international strategies be. Impluzz specializes in creating customized solutions tailored to your unique needs. Whether you're an established enterprise or a startup, we work closely with you to develop a strategy that aligns with your goals and budget.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -42,9 +42,9 @@ const Blogs = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "How to build a website",
+      title: "Logistics and Compliance",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Navigating the intricacies of international logistics and compliance can be challenging. Impluzz takes the guesswork out of the equation. We provide comprehensive support, ensuring your products move seamlessly across borders while adhering to all relevant regulations and standards.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -52,9 +52,9 @@ const Blogs = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "How to build a website",
+      title: "Sustainability in International Trade",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Sustainability is a growing concern in the global market. At Impluzz, we're committed to environmentally responsible business practices. We help our clients adopt sustainable strategies and offer guidance on reducing their environmental footprint, aligning with the evolving expectations of conscious consumers.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -62,29 +62,9 @@ const Blogs = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "How to build a website",
+      title: "Your Global Success Partner",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
-    },
-    {
-      imgSrc: "/assest/img.gif",
-      imgWidth: 300,
-      imgHeight: 100,
-      author: "John Doe",
-      date: "01 Jan, 2022",
-      title: "How to build a website",
-      content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
-    },
-    {
-      imgSrc: "/assest/img.gif",
-      imgWidth: 300,
-      imgHeight: 100,
-      author: "John Doe",
-      date: "01 Jan, 2022",
-      title: "How to build a website",
-      content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Impluzz is more than just an export and import company; we're your partner for global success. Our dedication to excellence, industry expertise, and commitment to your goals make us the right choice for businesses looking to expand their horizons.",
     },
   ];
   return (
@@ -97,7 +77,7 @@ const Blogs = () => {
               {blogPosts.map((post, index) => (
                 <div
                   key={index}
-                  className="flex flex-col justify-center  gap-4"
+                  className="flex flex-col border shadow-md px-4 py-5 justify-center  gap-4"
                 >
                   <div>
                     <Image
@@ -157,31 +137,31 @@ const Blogs = () => {
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Food and Beverages
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Energy
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Medical and Healthcare
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Machinery and Equipment
                     </p>
                     <p className="flex gap-3 font-bold text-[18px] items-center">
                       <span>
                         <BsArrowRight size={25} />
                       </span>
-                      Air Freight
+                      Consumer Goods
                     </p>
                   </div>
                 </div>
@@ -198,7 +178,7 @@ const Blogs = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Understanding Market Trends</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -211,7 +191,7 @@ const Blogs = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Building Strong Partnerships</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -224,7 +204,7 @@ const Blogs = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Customized Solutions</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -237,7 +217,7 @@ const Blogs = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Logistics and Compliance</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -250,7 +230,7 @@ const Blogs = () => {
                         alt="#"
                       />
                       <div>
-                        <h3>Freight Payment and Auditing Services</h3>
+                        <h3>Sustainability in International Trade</h3>
                         <p>01 Jan, 2022 Admin</p>
                       </div>
                     </div>
@@ -258,42 +238,41 @@ const Blogs = () => {
                 </div>
                 {/* 4th p */}
                 <div>
-                  <h2>Tag Cloud</h2>
-                  <div className="grid grid-cols-5 gap-4 py-6">
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                  <h2> Services </h2>
+                  <div className="grid grid-cols-2 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-4 py-6">
+                    <p className="px-5 text-center text-sm py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      High-Value Luxury Goods
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Energy Resources
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Automotive Products
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Green Products
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Online Marketplaces
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Art and Antiques
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Cultural and Creative Industries
                     </p>
-                    <p className="px-5 py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
-                      Development
+                    <p className="px-5 text-sm text-center py-3 border shadow-md font-semibold hover:bg-[red] hover:text-white">
+                      Cross-Border Services
                     </p>
                   </div>
                 </div>
                 {/* 5th */}
                 <div>
-                  <h2 className="py-2">Plain Text</h2>
+                  <h2 className="py-2">Article</h2>
                   <p className="text-justify leading-normal font-medium">
-                    Vero sea et accusam justo dolor accusam lorem consetetur,
-                    dolores sit amet sit dolor clita kasd justo, diam accusam no
-                    sea ut tempor magna takimata, amet sit et diam dolor ipsum
-                    amet diam
+                    This category includes the import and export of agricultural
+                    products such as grains, fruits, vegetables, meat, and
+                    dairy, as well as processed food and beverages.
                   </p>
                   <p className="bg-[red] w-[9rem] text-center text-white font-semibold px-5 py-3 hover:bg-[#243238] cursor-pointer my-4">
                     Read More

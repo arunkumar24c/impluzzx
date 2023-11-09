@@ -8,49 +8,49 @@ const Services = () => {
       imgSrc: "/assest/img.gif",
       imgWidth: 300,
       imgHeight: 100,
-      title: "How to build a website",
+      title: "A Look into Impluzz Export Co.'s International Success",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "n today's interconnected world, international trade has become a cornerstone of economic growth. Businesses worldwide are venturing into import and export to expand their horizons and increase profitability. One such thriving company at the forefront of this movement is Impluzz Export Co.",
     },
     {
       imgSrc: "/assest/img.gif",
       imgWidth: 300,
       imgHeight: 100,
-      title: "How to build a website",
+      title: "Diverse Product Range",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Impluzz Export Co. offers a diverse portfolio of products, catering to a variety of industries. From agricultural commodities to consumer electronics, they have strategically established partnerships with manufacturers worldwide. This diversity not only helps mitigate risks but also ensures a steady supply of in-demand products.",
     },
     {
       imgSrc: "/assest/img.gif",
       imgWidth: 300,
       imgHeight: 100,
-      title: "How to build a website",
+      title: "Global Network",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "What sets Impluzz Export Co. apart is its extensive network of partners and clients across the globe. They have successfully built relationships with suppliers and buyers in different countries, which has led to a robust and sustainable trading network. With a strong presence in key markets, they can efficiently source and distribute products on a global scale.",
     },
     {
       imgSrc: "/assest/img.gif",
       imgWidth: 300,
       imgHeight: 100,
-      title: "How to build a website",
+      title: "Quality Assurance",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Quality is a top priority for Impluzz Export Co. They adhere to strict quality control measures and certifications to ensure that their products meet or exceed international standards. This commitment to quality has garnered trust among their clients and has been a cornerstone of their success.",
     },
     {
       imgSrc: "/assest/img.gif",
       imgWidth: 300,
       imgHeight: 100,
-      title: "How to build a website",
+      title: "Innovative Solutions",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "In an ever-changing global market, innovation is essential. Impluzz Export Co. invests in the latest technology and logistics solutions to streamline their import and export processes. This results in cost-effective operations and faster delivery times for their customers.",
     },
     {
       imgSrc: "/assest/img.gif",
       imgWidth: 300,
       imgHeight: 100,
-      title: "How to build a website",
+      title: "Sustainability and Ethical Practices",
       content:
-        "Dolor et eos labore stet justo sed, est sed sed sed dolor stet amet",
+        "Impluzz Export Co. believes in responsible and sustainable business practices. They actively promote eco-friendly initiatives and support ethical trading. This approach not only resonates with conscious consumers but also aligns with international regulations and standards.",
     },
   ];
 
@@ -81,9 +81,12 @@ const Services = () => {
                   <p>{service.content}</p>
                   <div className="relative cursor-pointer group">
                     <div className="mt-2">
-                      <p className="flex items-center">
-                        <BsArrowRight className="" size={25} />
-                        <span className="absolute text-black py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
+                      <p className="flex items-center ">
+                        <BsArrowRight
+                          className="bg-[red] rounded-s-md h-9 w-11 text-white px-2"
+                          size={25}
+                        />
+                        <span className="absolute text-white rounded-e-md text-[18px] font-semibold bg-[red] py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
                           Read more
                         </span>
                       </p>
