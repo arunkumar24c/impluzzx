@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Gallery", link: "/gallery" },
-    { name: "Product", link: "/product" },
+    { name: "Products", link: "/product" },
     { name: "Services", link: "/Service" },
     { name: "Blogs", link: "" },
     { name: "Pages", link: "" },
@@ -65,9 +65,9 @@ const Navbar = () => {
           <Link href="/">
             <Image
               src={"/assest/logo-black.png"}
-              width={100}
-              height={50}
-              className="w-[250px] h-[50px]"
+              width={150}
+              height={60}
+              className="w-full h-auto"
             />
           </Link>
         </div>
