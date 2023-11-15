@@ -55,7 +55,7 @@ const Blog = () => {
                 </p>
                 <p className="text-justify leading-normal font-medium">
                   Navigating the intricacies of customs clearance can be a
-                  daunting task. Impluzz's customs clearance services are
+                  daunting task. Impluzz&apos;s customs clearance services are
                   designed to streamline this process. Our experts are
                   well-versed in customs regulations and ensure that your goods
                   cross borders smoothly. We handle all the necessary paperwork,
@@ -98,10 +98,11 @@ const Blog = () => {
                     <p className="text-justify leading-normal">
                       Working with Impluzz has been a game-changer for our
                       business. Their import and export services are top-notch,
-                      and we've seen remarkable improvements in our
+                      and we&apos;ve seen remarkable improvements in our
                       international trade operations. The level of expertise
-                      they bring to the table is unmatched. We can't thank the
-                      Impluzz team enough for their dedication to our success.
+                      they bring to the table is unmatched. We can&apos;t thank
+                      the Impluzz team enough for their dedication to our
+                      success.
                     </p>
                     <button className="shadow-md border px-4 py-2 my-4">
                       Reply
@@ -122,13 +123,13 @@ const Blog = () => {
                   <div>
                     <h3>John Doe 01 Jan 2022</h3>
                     <p className="text-justify leading-normal">
-                      Thank you for sharing your experience with Impluzz! It's
-                      great to hear about your positive outcomes from working
-                      with them. I'm currently considering their services for my
-                      business, and your feedback certainly reinforces my
-                      confidence in their capabilities. Can you tell me more
-                      about which specific services you found most beneficial
-                      for your international trade operations
+                      Thank you for sharing your experience with Impluzz!
+                      It&apos;s great to hear about your positive outcomes from
+                      working with them. I&apos;m currently considering their
+                      services for my business, and your feedback certainly
+                      reinforces my confidence in their capabilities. Can you
+                      tell me more about which specific services you found most
+                      beneficial for your international trade operations
                     </p>
                     <button className="shadow-md border px-4 py-2 my-4">
                       Reply
@@ -149,7 +150,7 @@ const Blog = () => {
                   <div>
                     <h3>John Doe 01 Jan 2022</h3>
                     <p className="text-justify leading-normal">
-                      Absolutely, I'd be happy to share more about our
+                      Absolutely, I&apos;d be happy to share more about our
                       experience with Impluzz. One of the standout services for
                       us has been their customs clearance expertise. Navigating
                       customs regulations used to be a major headache, but

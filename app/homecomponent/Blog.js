@@ -14,7 +14,7 @@ const Blog = () => {
       date: "01 Jan, 2022",
       title: "Understanding Market Trends",
       content:
-        "To thrive in the global market, it's essential to stay updated with the latest market trends. At Impluzz, we regularly analyze market data and keep a close eye on emerging trends, allowing us to offer valuable insights to our clients. Whether it's shifts in consumer behavior, changes in regulations, or emerging technologies, we ensure you're well-informed.",
+        "To thrive in the global market, it is essential to stay updated with the latest market trends. At Impluzz, we regularly analyze market data and keep a close eye on emerging trends, allowing us to offer valuable insights to our clients. Whether it's shifts in consumer behavior, changes in regulations, or emerging technologies, we ensure you're well-informed.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -54,7 +54,7 @@ const Blog = () => {
       date: "01 Jan, 2022",
       title: "Sustainability in International Trade",
       content:
-        "Sustainability is a growing concern in the global market. At Impluzz, we're committed to environmentally responsible business practices. We help our clients adopt sustainable strategies and offer guidance on reducing their environmental footprint, aligning with the evolving expectations of conscious consumers.",
+        "Sustainability is a growing concern in the global market. At Impluzz, we are committed to environmentally responsible business practices. We help our clients adopt sustainable strategies and offer guidance on reducing their environmental footprint, aligning with the evolving expectations of conscious consumers.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -64,7 +64,7 @@ const Blog = () => {
       date: "01 Jan, 2022",
       title: "Your Global Success Partner",
       content:
-        "Impluzz is more than just an export and import company; we're your partner for global success. Our dedication to excellence, industry expertise, and commitment to your goals make us the right choice for businesses looking to expand their horizons.",
+        "Impluzz is more than just an export and import company; we are your partner for global success. Our dedication to excellence, industry expertise, and commitment to your goals make us the right choice for businesses looking to expand their horizons.",
     },
   ];
 

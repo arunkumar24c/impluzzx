@@ -47,11 +47,11 @@ const Shipments = () => {
             </div>
             <p className="text-justify font-medium text-[18px] leading-normal">
               At Impluzz, we understand the intricacies of managing shipments,
-              both domestic and international. Whether you're an established
-              business or a startup, our comprehensive shipment management
-              services are tailored to meet your unique logistics needs. We take
-              the hassle out of shipping, ensuring your goods reach their
-              destination seamlessly and on time.
+              both domestic and international. Whether you&apos;re an
+              established business or a startup, our comprehensive shipment
+              management services are tailored to meet your unique logistics
+              needs. We take the hassle out of shipping, ensuring your goods
+              reach their destination seamlessly and on time.
             </p>
             <motion.div
               initial={{ x: -100, opacity: 0 }}

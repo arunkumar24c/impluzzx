@@ -160,6 +160,7 @@ const PopularDestinationCard = ({ id, name, stars, location, quote }) => {
               width={60}
               height={60}
               className="rounded-full"
+              alt="img"
             />
             <div>
               <div className="flex gap-2">
