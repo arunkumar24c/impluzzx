@@ -38,7 +38,7 @@ const Shipments = () => {
             <p className="text-[18px] font-medium text-[red]">SOME FACTS</p>
             <div>
               <h1 className="text-[25px] font-bold text-black leading-normal">
-                #1 Place To Manage All Of Your Shipments
+                #1 Place To Manage All Of Your
               </h1>
               <h1 className="text-[25px] font-bold text-black leading-normal">
                 {" "}
@@ -67,7 +67,7 @@ const Shipments = () => {
                   Call for any query!
                 </p>
                 <p className="font-bold text-[22px] text-[black]">
-                  + 0000000000
+                  +91 9025833351
                 </p>
               </div>
             </motion.div>

@@ -61,7 +61,7 @@ const Services = () => {
           <h1 className="text-xl text-[red] ">OUR SERVICES</h1>
           <h1 className="text-3xl font-semibold">Explore Our Services</h1>
 
-          <div className="py-10 grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 justify-center gap-8 px-5">
+          <div className="py-10 grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 justify-center gap-8 px-5">
             {serviceData.map((service, index) => (
               <div
                 key={index}

@@ -10,10 +10,10 @@ import { AiFillContacts } from "react-icons/ai";
 export default function Footer() {
   let Links = [
     { name: "About Us", link: "/" },
-    { name: "Contact Us ", link: "" },
-    { name: "Our Services", link: "" },
-    { name: "Terms & Condition", link: "" },
-    { name: "Support", link: "" },
+    { name: "Contact Us ", link: "/" },
+    { name: "Our Services", link: "/" },
+    { name: "Terms & Condition", link: "/" },
+    { name: "privacy-policy", link: "/" },
   ];
 
   return (
@@ -26,38 +26,39 @@ export default function Footer() {
             <h2 className="text-white">Address </h2>
             <p className="flex gap-2 text-[#6b7280] items-center">
               <CiLocationOn />
-              123 Street, New York, USA
+              #689,VKK Menon Road, New Siddha Pudur, Coimbatore-641044 Tamilnadu
+              (India)
             </p>
             <p className="flex gap-2 text-[#6b7280] items-center">
               <AiFillContacts />
-              +00 000 00 00
+              +91 9025833351
             </p>
             <p className="flex gap-2 text-[#6b7280] items-center">
               <AiOutlineMail />
-              JonDoe@example.com
+              impulzzinfo@gmail.com
             </p>
             <div className="flex gap-5 items-center py-5">
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href=" " target="_blank">
                   <BsInstagram size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href=" " target="_blank">
                   <RiTwitterXLine size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href="" target="_blank">
                   <BsLinkedin size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href="" target="_blank">
                   <BsYoutube size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href="" target="_blank">
                   <BsWhatsapp size={25} />
                 </a>
@@ -68,27 +69,27 @@ export default function Footer() {
           <div className="flex flex-col gap-5">
             <h1 className="text-white text-[18px]">Services</h1>
             <div className="flex flex-col gap-6">
-              <Link href="/privacy-policy">
+              <Link href="/">
                 <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white ">
                   Air Freight
                 </p>
               </Link>
-              <Link href="/terms-&-condition">
+              <Link href="/">
                 <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
                   Sea Freight
                 </p>
               </Link>
-              <Link href="/terms-&-condition">
+              <Link href="/">
                 <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
                   Road Freight
                 </p>
               </Link>
-              <Link href="/terms-&-condition">
+              <Link href="/">
                 <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
                   Logistic Solutions
                 </p>
               </Link>
-              <Link href="/terms-&-condition">
+              <Link href="/">
                 <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
                   Industry Solutions
                 </p>
@@ -115,7 +116,8 @@ export default function Footer() {
           <div className="flex flex-col h-full justify-center  gap-5 ">
             <p className="text-[18px]  text-[#ffffff] font-bold ">Newsletter</p>
             <p className="text-[16px] text-[#6b7280]">
-              Dolor amet sit justo amet elitr clita ipsum elitr est.
+              Impulse is the best parts shop of your daily nutritions. What kind
+              of nutrition do you need you can get here soluta nobis
             </p>
             <form className="flex flex-col gap-2">
               <input

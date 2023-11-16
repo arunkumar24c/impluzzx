@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsInstagram, BsLinkedin, BsYoutube, BsWhatsapp } from "react-icons/bs";
 import { RiTwitterXLine } from "react-icons/ri";
@@ -8,7 +9,9 @@ const page = () => {
         <h1 className="text-white text-[45px] py-5">Contact us</h1>
         <div className="text-white flex gap-3">
           {" "}
-          <p>Home</p>
+          <Link href="/">
+            <p className=" cursor-pointer">Home</p>
+          </Link>
           <p>/</p>
           <p>Contact Us</p>
         </div>
@@ -24,10 +27,8 @@ const page = () => {
                 Contact For Any Query
               </h2>
               <p className="leading-normal py-3 text-justify">
-                The contact form is currently inactive. Get a functional and
-                working contact form with Ajax & PHP in a few minutes. Just copy
-                and paste the files, add a little code and you&apos;re done.
-                Downloads Now.
+                At Impluzz exports and imports, we will help you find exactly what
+                you are looking for. Contact us today and swing by for a visit!
               </p>
               <form action="#" className="space-y-8 py-10">
                 <div className="flex gap-2 flex-col xl:flex-row lg:flex-row md:flex-col">
@@ -112,27 +113,27 @@ const page = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
             <div className="flex gap-5 items-center py-5">
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href=" " target="_blank">
                   <BsInstagram size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href=" " target="_blank">
                   <RiTwitterXLine size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href="" target="_blank">
                   <BsLinkedin size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href="" target="_blank">
                   <BsYoutube size={25} />
                 </a>
               </p>
-              <p className=" text-[#6b7280] cursor-pointer hover:text-primary rounded-md">
+              <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
                 <a href="" target="_blank">
                   <BsWhatsapp size={25} />
                 </a>

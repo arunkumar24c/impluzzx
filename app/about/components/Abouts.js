@@ -1,12 +1,15 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Abouts = () => {
   return (
     <div className="bg mt-[5rem] px-10 py-44">
-      <h1 className='text-white text-[45px] py-3'>About us</h1>
-      <div className='text-white flex gap-3'>
+      <h1 className="text-white text-[45px] py-3">About us</h1>
+      <div className="text-white flex gap-3">
         {" "}
-        <p>Home</p>
+        <Link href="/">
+          <p className=' cursor-pointer'>Home</p>
+        </Link>
         <p>/</p>
         <p>About Us</p>
       </div>

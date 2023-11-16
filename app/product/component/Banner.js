@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Banner = () => {
@@ -7,9 +8,10 @@ const Banner = () => {
         <h1 className="text-white text-[45px] py-3">Products</h1>
         <div className="text-white flex gap-3">
           {" "}
-          <p>Home</p>
-          <p>/</p>
-          <p>Pages</p>
+          <Link href="/">
+            <p className=" cursor-pointer">Home</p>
+          </Link>
+         
           <p>/</p>
           <p>Products</p>
         </div>

@@ -7,38 +7,38 @@ import "glider-js/glider.min.css";
 
 const data = [
   {
-    name: "TRANSPORT & LOGISITICS SOLUTION",
+    name: "Impulzz cosmo impex Pvt Limited",
     Founder: "FAST AND MORE TRUSTED ",
-    Founders:"TRANSPORT",
-    span:"SERVICES",
+    Founders: "Import and Export",
+    span: "Fruits",
 
     content:
-      "Sometimes the challenges we face with our pets may seem overwhelming.  Sometimes we feel helpless and hopeless. ",
+      "The export and import of fruits contribute significantly to global trade. Countries with favorable climates produce an abundance of diverse fruits, allowing for a rich exchange of flavors and nutrition. From tropical delights like mangoes and pineapples to temperate apples and berries, these exports enhance culinary experiences and support local economies. ",
     url: "/assest/slider-1.gif",
     button: "Read More ",
     button1: "Free Quotes",
   },
   {
-    name: "TRANSPORT & LOGISITICS SOLUTION",
+    name: "Impulzz cosmo impex Pvt Limited",
     Founder: "FAST AND MORE TRUSTED ",
-    Founders:"TRANSPORT",
-    span:"SERVICES",
+    Founders: "Import and Export",
+    span: "SEED",
 
     content:
-      "Sometimes the challenges we face with our pets may seem overwhelming.  Sometimes we feel helpless and hopeless. ",
+      "Seeds form the foundation of agricultural production. The import and export of seeds enable the transfer of technology, genetic diversity, and improved crop varieties. Access to quality seeds ensures sustainable farming practices and plays a crucial role in addressing food scarcity.",
     url: "/assest/slider-1.gif",
     button: "Read More ",
     button1: "Free Quotes",
   },
 
   {
-    name: "TRANSPORT & LOGISITICS SOLUTION",
+    name: "Impulzz cosmo impex Pvt Limited",
     Founder: "FAST AND MORE TRUSTED ",
-    Founders:"TRANSPORT",
-    span:"SERVICES",
+    Founders: "Import and Export",
+    span: "MEATS",
 
     content:
-      "Sometimes the challenges we face with our pets may seem overwhelming.  Sometimes we feel helpless and hopeless. ",
+      "The international meat trade involves a variety of products, from beef and poultry to seafood. Exporting and importing meats allow for a balanced distribution of protein sources globally. Adhering to stringent quality standards is paramount in ensuring food safety and meeting diverse cultural preferences. ",
     url: "/assest/slider-3.jpg",
     button: "Read More ",
     button1: "Free Quotes",

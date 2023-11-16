@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import { TiTick } from "react-icons/ti";
 
@@ -8,9 +9,9 @@ const Services1 = () => {
     {
       id: 1,
       imageSrc: "/assest/blog.jpg",
-      title: "15 Years Of Experience In Transportation Servicing",
+      title: "15 Years Of Experience In air exporting and importing",
       content:
-        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Air freight services offer swift and efficient transportation of goods via air carriers. With rapid delivery times, this mode of transportation is ideal for time-sensitive cargo or goods requiring quick global distribution. It ensures reliability and flexibility, making it a preferred choice for perishable items, high-value goods, and urgent shipments.",
       elements: ["element1", "element2", "element3"],
     },
     {
@@ -19,7 +20,7 @@ const Services1 = () => {
       title:
         "15 Years Of Experience In Transportation Servicing dgjfgjhj  hffhj dhjfhj fhj",
       content:
-        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Sea freight, commonly known as ocean freight, involves transporting cargo in containers via ships. It is a cost-effective and reliable method for transporting large volumes of goods across long distances. Sea freight is well-suited for heavy and bulky items, offering various container sizes to accommodate different cargo types. While it might have longer transit times, it's a preferred choice for global trade due to its affordability for non-urgent shipments.",
       elements: ["element1", "element2", "element3"],
     },
     {
@@ -28,7 +29,7 @@ const Services1 = () => {
       title:
         "15 Years Of Experience In Transportation Servicing dgjfgjhj  hffhj dhjfhj fhj",
       content:
-        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Road freight involves the transportation of goods over land via trucks or lorries. It offers flexibility and door-to-door delivery options, making it an essential part of supply chain logistics. Road freight is adaptable to varying shipment sizes and is often used for domestic or regional transportation needs. Its efficiency and accessibility to various locations make it a versatile and reliable choice.",
       elements: ["element1", "element2", "element3"],
     },
     {
@@ -37,7 +38,7 @@ const Services1 = () => {
       title:
         "15 Years Of ExpTransportation Servicing dgjfgjhj  hffhj dhjfhj fhj",
       content:
-        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Logistic solutions encompass a range of services that optimize the movement and management of goods throughout the supply chain. This includes warehousing, inventory management, distribution, packaging, and transportation. Logistic solutions aim to streamline processes, reduce costs, and enhance overall efficiency in the delivery of goods from suppliers to consumers",
       elements: ["element1", "element2", "element3"],
     },
     {
@@ -46,7 +47,7 @@ const Services1 = () => {
       title:
         "15 Years Of Experience In Tran Servicing dgjfgjhj  hffhj dhjfhj fhj",
       content:
-        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Industry-specific logistics solutions cater to the unique needs and requirements of different sectors such as pharmaceuticals, automotive, retail, technology, and more. These solutions are tailored to address the specific challenges and regulations of each industry, offering customized strategies and services to ensure seamless supply chain operations.",
       elements: ["element1", "element2", "element3"],
     },
     {
@@ -55,7 +56,7 @@ const Services1 = () => {
       title:
         "15 Years Of Experience In Transportation  dgjfgjhj  hffhj dhjfhj fhj",
       content:
-        "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+        "Warehouse solutions encompass a range of services and strategies aimed at optimizing the storage, management, and distribution of goods within a warehouse setting.",
       elements: ["element1", "element2", "element3"],
     },
   ];
@@ -96,7 +97,9 @@ const Services1 = () => {
       <div className="bg mt-[5rem] px-10 py-44">
         <h1 className="text-white text-[45px] py-2">Services</h1>
         <div className="text-white flex gap-3">
-          <p>Home</p>
+          <Link href="/">
+            <p className=" cursor-pointer">Home</p>
+          </Link>
           <p>/</p>
           <p>Services</p>
         </div>

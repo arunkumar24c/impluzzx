@@ -49,7 +49,7 @@ const Quotes = () => {
                   Call for any query!
                 </p>
                 <p className="font-bold text-[22px] text-[black]">
-                  + 0000000000
+                   +91 9025833351
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Quotes = () => {
         </div>
         {/* 2 */}
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full bg-[#05103b] px-5 py-10 ">
-          <form onSubmit={handleSubmit} className="php-email-form">
+          <form onSubmit={handleSubmit} className="">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
                 <input

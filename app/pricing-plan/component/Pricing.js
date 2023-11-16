@@ -1,6 +1,7 @@
 import React from 'react'
 import { TiTick } from "react-icons/ti";
 import { BsArrowRight } from "react-icons/bs";
+import Link from 'next/link';
 const Pricing = () => {
   
   return (
@@ -9,9 +10,9 @@ const Pricing = () => {
         <h1 className="text-white text-[45px] py-3">Pricing</h1>
         <div className="text-white flex gap-3">
           {" "}
-          <p>Home</p>
-          <p>/</p>
-          <p>pages</p>
+          <Link href="/">
+            <p className=" cursor-pointer">Home</p>
+          </Link>
           <p>/</p>
           <p>Pricing</p>
         </div>

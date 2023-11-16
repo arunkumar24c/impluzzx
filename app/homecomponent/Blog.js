@@ -12,9 +12,9 @@ const Blog = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "Understanding Market Trends",
+      title: "A Stroke of Genius",
       content:
-        "To thrive in the global market, it is essential to stay updated with the latest market trends. At Impluzz, we regularly analyze market data and keep a close eye on emerging trends, allowing us to offer valuable insights to our clients. Whether it's shifts in consumer behavior, changes in regulations, or emerging technologies, we ensure you're well-informed.",
+        "The Impulzz Ace of Diamonds is a marvel to behold. Its exquisite design and durability make it a standout in my collection. Impulzz's attention to detail is truly unparalleled.",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -22,9 +22,9 @@ const Blog = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "Building Strong Partnerships",
+      title: "Artistry in Every Card",
       content:
-        "Global success often depends on strong partnerships. Impluzz has a proven track record of building and nurturing relationships with suppliers, distributors, and clients worldwide. We understand the importance of trust and collaboration in international trade, and we're dedicated to helping you forge these vital connections.",
+        "I've never seen such craftsmanship before encountering Impulzz's Queen of Spades. The intricate patterns and quality surpass any other deck I've owned. It's more than just a card; it's a piece of art!",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -32,9 +32,9 @@ const Blog = () => {
       imgHeight: 100,
       author: "John Doe",
       date: "01 Jan, 2022",
-      title: "Customized Solutions",
+      title: "Quality Beyond Compare",
       content:
-        "No two businesses are the same, and neither should their international strategies be. Impluzz specializes in creating customized solutions tailored to your unique needs. Whether you're an established enterprise or a startup, we work closely with you to develop a strategy that aligns with your goals and budget.",
+        "The Three of Clubs from Impulzz is a testament to their commitment to excellence. The quality and finish make every game an experience. Impulzz has set a new standard in card craftsmanship",
     },
     {
       imgSrc: "/assest/img.gif",
@@ -81,7 +81,7 @@ const Blog = () => {
           <h1 className="leading-normal text-black font-bold text-[35px] text-center ">
             Our Blog Post
           </h1>
-          <div className="py-10 grid grid-cols-1  xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-3 justify-center items-center gap-5  px-10">
+          <div className="py-10 grid grid-cols-1  xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2 justify-center items-center gap-5  px-10">
             {blogPosts.map((post, index) => (
               <motion.div
                 key={index}
