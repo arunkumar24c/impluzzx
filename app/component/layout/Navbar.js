@@ -15,8 +15,8 @@ const Navbar = () => {
     { name: "Products", link: "/product" },
     { name: "Services", link: "/Service" },
     { name: "Blogs", link: "" },
-    { name: "Pages", link: "" },
-    { name: "Contact", link: "/contact" },
+   
+    { name: "Contact Us", link: "/contact" },
   ];
 
   let [menuOpen, setMenuOpen] = useState(false);

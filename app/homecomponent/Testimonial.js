@@ -14,7 +14,7 @@ const data = [
 
     content:
       "The export and import of fruits contribute significantly to global trade. Countries with favorable climates produce an abundance of diverse fruits, allowing for a rich exchange of flavors and nutrition. From tropical delights like mangoes and pineapples to temperate apples and berries, these exports enhance culinary experiences and support local economies. ",
-    url: "/assest/slider-1.gif",
+    url: "/assest/ban3.avif",
     button: "Read More ",
     button1: "Free Quotes",
   },
@@ -26,7 +26,7 @@ const data = [
 
     content:
       "Seeds form the foundation of agricultural production. The import and export of seeds enable the transfer of technology, genetic diversity, and improved crop varieties. Access to quality seeds ensures sustainable farming practices and plays a crucial role in addressing food scarcity.",
-    url: "/assest/slider-1.gif",
+    url: "/assest/ban1.jpg",
     button: "Read More ",
     button1: "Free Quotes",
   },
@@ -39,7 +39,7 @@ const data = [
 
     content:
       "The international meat trade involves a variety of products, from beef and poultry to seafood. Exporting and importing meats allow for a balanced distribution of protein sources globally. Adhering to stringent quality standards is paramount in ensuring food safety and meeting diverse cultural preferences. ",
-    url: "/assest/slider-3.jpg",
+    url: "/assest/ban1.jpg",
     button: "Read More ",
     button1: "Free Quotes",
   },
@@ -146,13 +146,13 @@ const PopularDestinationCard = (props) => {
         <div className="text-white py-16 flex flex-col gap-6 justify-start items-start  xl:px-10 lg:px-10 md:px-5 px-1">
           {/* text */}
           <h1 className="text-[24px] font-bold text-[red]">{props.name}</h1>
-          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-white ">
+          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-black ">
             {props.Founder}
           </h1>
           <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-[red] flex gap-2 ">
-            {props.Founders} <span className="text-white">{props.span}</span>
+            {props.Founders} <span className="text-black">{props.span}</span>
           </h1>
-          <p className="leading-normal text-justify text-[18px] xl:w-[32rem] lg:w-[28rem] md:w-[28rem] w-full">
+          <p className="leading-normal font-bold text-black text-justify text-[18px] xl:w-[32rem] lg:w-[28rem] md:w-[28rem] w-full">
             {props.content}
           </p>
           {/* button  */}

@@ -5,15 +5,15 @@ import { RiTwitterXLine } from "react-icons/ri";
 const page = () => {
   return (
     <div>
-      <div className="bg mt-[6rem] px-10 py-44 ">
-        <h1 className="text-white text-[45px] py-5">Contact us</h1>
+      <div className="bg mt-[5rem] px-10 py-44 h-[60vh]">
+        <h1 className="text-[red] text-[45px] py-3">Contact us</h1>
         <div className="text-white flex gap-3">
           {" "}
           <Link href="/">
-            <p className=" cursor-pointer">Home</p>
+            <p className="text-black cursor-pointer">Home</p>
           </Link>
-          <p>/</p>
-          <p>Contact Us</p>
+          <p className="text-black">/</p>
+          <p className="text-black"> Contact us</p>
         </div>
       </div>
       <div className="brand-container px-5 ">
@@ -27,8 +27,9 @@ const page = () => {
                 Contact For Any Query
               </h2>
               <p className="leading-normal py-3 text-justify">
-                At Impluzz exports and imports, we will help you find exactly what
-                you are looking for. Contact us today and swing by for a visit!
+                At Impluzz exports and imports, we will help you find exactly
+                what you are looking for. Contact us today and swing by for a
+                visit!
               </p>
               <form action="#" className="space-y-8 py-10">
                 <div className="flex gap-2 flex-col xl:flex-row lg:flex-row md:flex-col">
@@ -134,7 +135,7 @@ const page = () => {
                 </a>
               </p>
               <p className=" text-[#6b7280] cursor-pointer hover:text-[red] rounded-md">
-                <a href="" target="_blank">
+                <a href="https://wa.me/+919025833351" target="_blank">
                   <BsWhatsapp size={25} />
                 </a>
               </p>

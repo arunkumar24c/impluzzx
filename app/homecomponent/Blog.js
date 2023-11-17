@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Blog = () => {
   const blogPosts = [
     {
-      imgSrc: "/assest/img.gif",
+      imgSrc: "/assest/imp1.jpg",
       imgWidth: 300,
       imgHeight: 100,
       author: "John Doe",
@@ -17,7 +17,7 @@ const Blog = () => {
         "The Impulzz Ace of Diamonds is a marvel to behold. Its exquisite design and durability make it a standout in my collection. Impulzz's attention to detail is truly unparalleled.",
     },
     {
-      imgSrc: "/assest/img.gif",
+      imgSrc: "/assest/imp1.jpg",
       imgWidth: 300,
       imgHeight: 100,
       author: "John Doe",
@@ -27,7 +27,7 @@ const Blog = () => {
         "I've never seen such craftsmanship before encountering Impulzz's Queen of Spades. The intricate patterns and quality surpass any other deck I've owned. It's more than just a card; it's a piece of art!",
     },
     {
-      imgSrc: "/assest/img.gif",
+      imgSrc: "/assest/imp1.jpg",
       imgWidth: 300,
       imgHeight: 100,
       author: "John Doe",
@@ -37,7 +37,7 @@ const Blog = () => {
         "The Three of Clubs from Impulzz is a testament to their commitment to excellence. The quality and finish make every game an experience. Impulzz has set a new standard in card craftsmanship",
     },
     {
-      imgSrc: "/assest/img.gif",
+      imgSrc: "/assest/imp1.jpg",
       imgWidth: 300,
       imgHeight: 100,
       author: "John Doe",
@@ -47,7 +47,7 @@ const Blog = () => {
         "Navigating the intricacies of international logistics and compliance can be challenging. Impluzz takes the guesswork out of the equation. We provide comprehensive support, ensuring your products move seamlessly across borders while adhering to all relevant regulations and standards.",
     },
     {
-      imgSrc: "/assest/img.gif",
+      imgSrc: "/assest/imp1.jpg",
       imgWidth: 300,
       imgHeight: 100,
       author: "John Doe",
@@ -57,7 +57,7 @@ const Blog = () => {
         "Sustainability is a growing concern in the global market. At Impluzz, we are committed to environmentally responsible business practices. We help our clients adopt sustainable strategies and offer guidance on reducing their environmental footprint, aligning with the evolving expectations of conscious consumers.",
     },
     {
-      imgSrc: "/assest/img.gif",
+      imgSrc: "/assest/imp1.jpg",
       imgWidth: 300,
       imgHeight: 100,
       author: "John Doe",
