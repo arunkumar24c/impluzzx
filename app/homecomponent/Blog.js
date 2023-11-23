@@ -14,7 +14,7 @@ const Blog = () => {
       date: "01 Jan, 2022",
       title: "A Stroke of Genius",
       content:
-        "The Impulzz Ace of Diamonds is a marvel to behold. Its exquisite design and durability make it a standout in my collection. Impulzz's attention to detail is truly unparalleled.",
+        "Impulzz's commitment to excellence shines through every piece, making them standout gems among treasures, embodying unrivaled craftsmanship that leaves an indelible mark on every admirer.",
     },
     {
       imgSrc: "/assest/imp1.jpg",

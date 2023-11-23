@@ -10,11 +10,11 @@ const data = [
     name: "Impulzz cosmo impex Pvt Limited",
     Founder: "FAST AND MORE TRUSTED ",
     Founders: "Import and Export",
-    span: "Fruits",
+    span: "Products",
 
     content:
       "The export and import of fruits contribute significantly to global trade. Countries with favorable climates produce an abundance of diverse fruits, allowing for a rich exchange of flavors and nutrition. From tropical delights like mangoes and pineapples to temperate apples and berries, these exports enhance culinary experiences and support local economies. ",
-    url: "/assest/ban3.avif",
+    url: "/assest/bg2.webp",
     button: "Read More ",
     button1: "Free Quotes",
   },

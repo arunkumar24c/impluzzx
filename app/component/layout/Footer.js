@@ -73,29 +73,28 @@ export default function Footer() {
               </p>
             </div>
           </div>
+
           {/* link 2 */}
           <div className="flex flex-col gap-5">
             <h1 className="text-white text-[18px]">Services</h1>
             <div className="flex flex-col gap-6">
               <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white ">
-                Air Freight
+                Supply
               </p>
 
               <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Sea Freight
+                Inventory
               </p>
 
               <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Road Freight
+                Stock
               </p>
 
               <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Logistic Solutions
+                Merchandise
               </p>
 
-              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Industry Solutions
-              </p>
+             
             </div>
           </div>
           {/* email 3 section */}

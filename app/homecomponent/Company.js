@@ -10,7 +10,7 @@ const Company = () => {
         {/* 2 */}
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col gap-8 py-4">
           <div>
-            <h1>We Are Trusted Logistics Company Since 1990</h1>
+            <h1>We Are Trusted Export and Import Since 1990</h1>
           </div>
           <div className="flex flex-col justify-between gap-8">
             {/* 1st */}
@@ -21,12 +21,11 @@ const Company = () => {
                 </p>
               </div>
               <div>
-                <h2>Export Packing and Labeling</h2>
+                <h2>Premium Seeds and Crop Varieties:</h2>
                 <p>
-                  Proper packaging and labeling are essential for the safe and
-                  efficient transportation of goods. These services ensure that
-                  products are securely packed, labeled correctly, and comply
-                  with international shipping regulations.
+                  Providing top-tier seeds and diverse crop varieties for
+                  agricultural needs, enabling farmers to cultivate high-yield
+                  and resilient crops.
                 </p>
               </div>
             </div>
@@ -38,13 +37,11 @@ const Company = () => {
                 </p>
               </div>
               <div>
-                <h2>Customs Clearance Services:</h2>
+                <h2> Logistics and Supply Chain Management:</h2>
                 <p>
-                  Customs clearance services involve handling all the
-                  documentation and compliance requirements needed to get goods
-                  through customs authorities at the point of entry. This
-                  includes tariff classification, valuation, and compliance with
-                  import/export regulations.
+                  Efficient transportation and storage solutions to ensure the
+                  freshness and quality of perishable goods throughout the
+                  import-export journey.
                 </p>
               </div>
             </div>
@@ -56,11 +53,12 @@ const Company = () => {
                 </p>
               </div>
               <div>
-                <h2>Cross-border Transportation Services</h2>
+                <h2>Compliance with International Standards:</h2>
                 <p>
-                  Transportation services specialize in cross-border trucking,
-                  facilitating the movement of goods between neighboring
-                  countries or regions.
+                  Adherence to strict quality standards and compliance with
+                  international regulations to guarantee the safety and
+                  reliability of all imported and exported agricultural
+                  products.
                 </p>
               </div>
             </div>

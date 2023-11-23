@@ -94,7 +94,6 @@ const Services1 = () => {
 
   return (
     <div>
-      
       <div className="bg mt-[5rem] px-10 py-44 h-[60vh]">
         <h1 className="text-[red] text-[45px] py-3">Services</h1>
         <div className="text-white flex gap-3">
@@ -110,6 +109,9 @@ const Services1 = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-[red]"> OUR SERVICES</h2>
           <h1>Explore Our Services</h1>
+
+        
+
           {/* card */}
           <div className="flex flex-col xl:flex-row lg:flex-row md:flex-col justify-between gap-8 py-16 ">
             {/* 1 section */}
