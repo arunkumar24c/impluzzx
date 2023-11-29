@@ -22,8 +22,9 @@ const About = () => {
           <div>
             <h2 className="text-[red] text-[27px] font-medium">ABOUT US</h2>
             <h1 className="text-[45px] pr-5 leading-normal font-bold">
-              We Are Expert <span className="text-[red] "> For export and import the </span>{" "}
-              Products
+              We Are Expert{" "}
+              <span className="text-[red] "> in Export and Import of </span>{" "}
+              Indian Products
             </h1>
           </div>
           <p className="leading-normal text-justify text-[18px] text-black font-medium">
@@ -86,11 +87,3 @@ const About = () => {
 };
 
 export default About;
-
-
-
-
-
-
-
-
