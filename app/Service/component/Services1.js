@@ -7,83 +7,56 @@ import { TiTick } from "react-icons/ti";
 const Services1 = () => {
   const blogData = [
     {
+      id: 3,
+      imageSrc: "/assest/blog.jpg",
+      title: "15 Years Of Experience stocks ",
+      content:
+        "These are the basic materials used in manufacturing or production. For example, in the textile industry, raw materials could include cotton, wool, or synthetic fibers.",
+      elements: ["Raw Materials", "Finished Goods", "Inventory"],
+    },
+    {
       id: 1,
       imageSrc: "/assest/blog.jpg",
-      title: "15 Years Of Experience In air exporting and importing",
+      title:
+        "Efficient Supply Chain Management for Import and Export Companies",
       content:
-        "Air freight services offer swift and efficient transportation of goods via air carriers. With rapid delivery times, this mode of transportation is ideal for time-sensitive cargo or goods requiring quick global distribution. It ensures reliability and flexibility, making it a preferred choice for perishable items, high-value goods, and urgent shipments.",
+        "In the dynamic world of international trade, an effective supply chain stands as the backbone of success for import and export companies. The core content of this intricate system comprises several key elements, each pivotal in ensuring a seamless flow of goods across borders",
       elements: ["element1", "element2", "element3"],
     },
     {
       id: 2,
       imageSrc: "/assest/blog.jpg",
       title:
-        "15 Years Of Experience In Transportation Servicing dgjfgjhj  hffhj dhjfhj fhj",
+        "Comprehensive Inventory Management for Import and Export Companies",
       content:
-        "Sea freight, commonly known as ocean freight, involves transporting cargo in containers via ships. It is a cost-effective and reliable method for transporting large volumes of goods across long distances. Sea freight is well-suited for heavy and bulky items, offering various container sizes to accommodate different cargo types. While it might have longer transit times, it's a preferred choice for global trade due to its affordability for non-urgent shipments.",
-      elements: ["element1", "element2", "element3"],
-    },
-    {
-      id: 3,
-      imageSrc: "/assest/blog.jpg",
-      title:
-        "15 Years Of Experience In Transportation Servicing dgjfgjhj  hffhj dhjfhj fhj",
-      content:
-        "Road freight involves the transportation of goods over land via trucks or lorries. It offers flexibility and door-to-door delivery options, making it an essential part of supply chain logistics. Road freight is adaptable to varying shipment sizes and is often used for domestic or regional transportation needs. Its efficiency and accessibility to various locations make it a versatile and reliable choice.",
+        "Efficient inventory management stands as the cornerstone of success for import and export companies. Maintaining a detailed inventory ensures a smooth flow of goods, reduces operational costs, and enhances overall productivity. By meticulously tracking incoming shipments, assessing stock levels, and managing outgoing orders, companies can optimize their supply chain processes. ",
       elements: ["element1", "element2", "element3"],
     },
     {
       id: 4,
       imageSrc: "/assest/blog.jpg",
-      title:
-        "15 Years Of ExpTransportation Servicing dgjfgjhj  hffhj dhjfhj fhj",
+      title: "Diverse Merchandise Solutions for Import and Export Excellence",
       content:
-        "Logistic solutions encompass a range of services that optimize the movement and management of goods throughout the supply chain. This includes warehousing, inventory management, distribution, packaging, and transportation. Logistic solutions aim to streamline processes, reduce costs, and enhance overall efficiency in the delivery of goods from suppliers to consumers",
-      elements: ["element1", "element2", "element3"],
-    },
-    {
-      id: 5,
-      imageSrc: "/assest/blog.jpg",
-      title:
-        "15 Years Of Experience In Tran Servicing dgjfgjhj  hffhj dhjfhj fhj",
-      content:
-        "Industry-specific logistics solutions cater to the unique needs and requirements of different sectors such as pharmaceuticals, automotive, retail, technology, and more. These solutions are tailored to address the specific challenges and regulations of each industry, offering customized strategies and services to ensure seamless supply chain operations.",
-      elements: ["element1", "element2", "element3"],
-    },
-    {
-      id: 6,
-      imageSrc: "/assest/blog.jpg",
-      title:
-        "15 Years Of Experience In Transportation  dgjfgjhj  hffhj dhjfhj fhj",
-      content:
-        "Warehouse solutions encompass a range of services and strategies aimed at optimizing the storage, management, and distribution of goods within a warehouse setting.",
+        "As an import and export company dedicated to delivering exceptional global trade solutions, we offer an extensive array of merchandise to meet diverse market demands. Our comprehensive range includes but isn't limited to electronics, textiles, machinery, consumer goods, and more.",
       elements: ["element1", "element2", "element3"],
     },
   ];
   const buttonData = [
     {
       id: 1,
-      label: "Air Freight",
+      label: "Supply",
     },
     {
       id: 2,
-      label: "Ocean Freight",
+      label: "Inventory",
     },
     {
       id: 3,
-      label: "Road Freight",
+      label: "Stock",
     },
     {
       id: 4,
-      label: "Train Freight",
-    },
-    {
-      id: 5,
-      label: "Customs Clearance",
-    },
-    {
-      id: 6,
-      label: "WareHouse Solution",
+      label: "Merchandise",
     },
   ];
   const [selectedCard, setSelectedCard] = useState(1);
@@ -110,12 +83,10 @@ const Services1 = () => {
           <h2 className="text-[red]"> OUR SERVICES</h2>
           <h1>Explore Our Services</h1>
 
-        
-
           {/* card */}
-          <div className="flex flex-col xl:flex-row lg:flex-row md:flex-col justify-between gap-8 py-16 ">
+          <div className="flex  justify-between gap-8 py-5 ">
             {/* 1 section */}
-            <div className="flex flex-col gap-2 w-full xl:w-1/2 md:w-full lg:w-1/2">
+            <div className="w-full  xl:w-1/2 md:w-full lg:w-1/2 flex flex-col gap-4">
               {buttonData.map((button) => (
                 <button
                   key={button.id}
