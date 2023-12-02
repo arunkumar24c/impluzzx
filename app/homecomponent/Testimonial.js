@@ -144,7 +144,7 @@ const PopularDestinationCard = (props) => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="h-[100vh] py-10  "
+      className=" py-10  "
     >
       <div className=" py-28 xl:px-10 lg:px-10 md:px-5 px-1">
         <div className="text-white py-16 flex flex-col gap-6 justify-start items-start  xl:px-10 lg:px-10 md:px-5 px-1">
