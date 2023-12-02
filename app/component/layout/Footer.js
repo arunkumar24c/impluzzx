@@ -148,14 +148,14 @@ export default function Footer() {
             <p>
               <HiDotsCircleHorizontal
                 className="text-white bg-black rounded-full"
-                size={45}
+                size={35}
               />
             </p>
           </div>
 
           {/* Social Icons */}
           {showIcons && (
-            <div className="flex flex-col space-y-2 absolute bottom-full right-0 bg-transparent p-4 rounded-md ">
+            <div className="flex flex-col space-y-2 absolute bottom-full -right-3 bg-transparent p-4 rounded-md ">
               <div className="transform transition-all duration-500 hover:-translate-y-1 hover:scale-110">
                 <FaInstagram
                   className="text-pink-500 cursor-pointer"

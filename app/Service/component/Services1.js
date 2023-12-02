@@ -67,7 +67,7 @@ const Services1 = () => {
 
   return (
     <div>
-      <div className="bgs mt-[5rem] px-10 py-44 h-[60vh]">
+      <div className="bana mt-[5rem] px-10 py-44 w-full h-[60vh]">
         <h1 className="text-[red] text-[45px] py-3">Services</h1>
         <div className="text-white flex gap-3">
           {" "}

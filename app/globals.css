@@ -47,6 +47,12 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.bana{
+  background-image: url("../public/assest/bana.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .bgss{
    background-image: url("../public/assest/contact.jpeg");
