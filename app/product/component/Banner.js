@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
    
-    <div className="bgsss mt-[5rem] px-10 py-44 h-[60vh]">
+    <div className="bgs mt-[5rem] px-10 py-44 h-[60vh]">
       <h1 className="text-[red] text-[45px] py-3">Products</h1>
       <div className="text-white flex gap-3">
         {" "}
