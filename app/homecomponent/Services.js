@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Services = () => {
   const serviceData = [
     {
-      imgSrc: "/assest/imp2.jpeg",
+      imgSrc: "/assest/a7.jpeg",
       imgWidth: 300,
       imgHeight: 100,
       title: "A Look into Impluzz Export Co.'s International Success",
@@ -13,7 +13,7 @@ const Services = () => {
         "n today's interconnected world, international trade has become a cornerstone of economic growth. Businesses worldwide are venturing into import and export to expand their horizons and increase profitability. One such thriving company at the forefront of this movement is Impluzz Export Co.",
     },
     {
-      imgSrc: "/assest/imp2.jpeg",
+      imgSrc: "/assest/a2.jpeg",
       imgWidth: 300,
       imgHeight: 100,
       title: "Diverse Product Range",
@@ -21,7 +21,7 @@ const Services = () => {
         "Impluzz Export Co. offers a diverse portfolio of products, catering to a variety of industries. From agricultural commodities to consumer electronics, they have strategically established partnerships with manufacturers worldwide. This diversity not only helps mitigate risks but also ensures a steady supply of in-demand products.",
     },
     {
-      imgSrc: "/assest/imp2.jpeg",
+      imgSrc: "/assest/a3.jpeg",
       imgWidth: 300,
       imgHeight: 100,
       title: "Global Network",
@@ -29,7 +29,7 @@ const Services = () => {
         "What sets Impluzz Export Co. apart is its extensive network of partners and clients across the globe. They have successfully built relationships with suppliers and buyers in different countries, which has led to a robust and sustainable trading network. With a strong presence in key markets, they can efficiently source and distribute products on a global scale.",
     },
     {
-      imgSrc: "/assest/imp2.jpeg",
+      imgSrc: "/assest/a8.jpeg",
       imgWidth: 300,
       imgHeight: 100,
       title: "Quality Assurance",
@@ -37,7 +37,7 @@ const Services = () => {
         "Quality is a top priority for Impluzz Export Co. They adhere to strict quality control measures and certifications to ensure that their products meet or exceed international standards. This commitment to quality has garnered trust among their clients and has been a cornerstone of their success.",
     },
     {
-      imgSrc: "/assest/imp2.jpeg",
+      imgSrc: "/assest/a5.jpeg",
       imgWidth: 300,
       imgHeight: 100,
       title: "Innovative Solutions",
@@ -45,7 +45,7 @@ const Services = () => {
         "In an ever-changing global market, innovation is essential. Impluzz Export Co. invests in the latest technology and logistics solutions to streamline their import and export processes. This results in cost-effective operations and faster delivery times for their customers.",
     },
     {
-      imgSrc: "/assest/imp2.jpeg",
+      imgSrc: "/assest/a6.jpeg",
       imgWidth: 300,
       imgHeight: 100,
       title: "Sustainability and Ethical Practices",

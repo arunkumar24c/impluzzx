@@ -8,7 +8,7 @@ const Services1 = () => {
   const blogData = [
     {
       id: 3,
-      imageSrc: "/assest/blog.jpg",
+      imageSrc: "/assest/s1.jpeg",
       title: "15 Years Of Experience stocks ",
       content:
         "These are the basic materials used in manufacturing or production. For example, in the textile industry, raw materials could include cotton, wool, or synthetic fibers.",
@@ -16,7 +16,7 @@ const Services1 = () => {
     },
     {
       id: 1,
-      imageSrc: "/assest/blog.jpg",
+      imageSrc: "/assest/s2.jpeg",
       title:
         "Efficient Supply Chain Management for Import and Export Companies",
       content:
@@ -25,7 +25,7 @@ const Services1 = () => {
     },
     {
       id: 2,
-      imageSrc: "/assest/blog.jpg",
+      imageSrc: "/assest/s3.jpeg",
       title:
         "Comprehensive Inventory Management for Import and Export Companies",
       content:
@@ -34,7 +34,7 @@ const Services1 = () => {
     },
     {
       id: 4,
-      imageSrc: "/assest/blog.jpg",
+      imageSrc: "/assest/s4.jpeg",
       title: "Diverse Merchandise Solutions for Import and Export Excellence",
       content:
         "As an import and export company dedicated to delivering exceptional global trade solutions, we offer an extensive array of merchandise to meet diverse market demands. Our comprehensive range includes but isn't limited to electronics, textiles, machinery, consumer goods, and more.",
@@ -67,7 +67,7 @@ const Services1 = () => {
 
   return (
     <div>
-      <div className="bg mt-[5rem] px-10 py-44 h-[60vh]">
+      <div className="bgs mt-[5rem] px-10 py-44 h-[60vh]">
         <h1 className="text-[red] text-[45px] py-3">Services</h1>
         <div className="text-white flex gap-3">
           {" "}
@@ -84,9 +84,9 @@ const Services1 = () => {
           <h1>Explore Our Services</h1>
 
           {/* card */}
-          <div className="flex  justify-between gap-8 py-5 ">
+          <div className="flex xl:flex-row md:flex-col lg:flex-row flex-col  justify-between gap-4 py-5 ">
             {/* 1 section */}
-            <div className="w-full  xl:w-1/2 md:w-full lg:w-1/2 flex flex-col gap-4">
+            <div className="w-full  xl:w-1/5 md:w-full lg:w-1/5 flex flex-col gap-4">
               {buttonData.map((button) => (
                 <button
                   key={button.id}
@@ -100,7 +100,7 @@ const Services1 = () => {
               ))}
             </div>
             {/* 2nd */}
-            <div className="w-full xl:w-1/2 md:w-full lg:w-1/2">
+            <div className="w-full xl:w-4/5 md:w-full lg:w-4/5">
               {blogData
                 .filter((blog) => blog.id === selectedCard)
                 .map((blog) => (
@@ -108,16 +108,16 @@ const Services1 = () => {
                     key={blog.id}
                     className="flex flex-col xl:flex-row lg:flex-row md:flex-col gap-6"
                   >
-                    <div className="w-full xl:w-1/2 md:w-full lg:w-1/2">
+                    <div className="w-full ">
                       <Image
                         src={blog.imageSrc}
-                        width={100}
-                        height={100}
-                        className="w-full h-full"
+                        width={300}
+                        height={600}
+                        className="w-full object-cover h-full"
                         alt="#"
                       />
                     </div>
-                    <div className="flex flex-col gap-4 w-full xl:w-1/2 md:w-full lg:w-1/2">
+                    <div className="flex flex-col gap-4 w-full ">
                       <h1 className="text-black font-bold leading-normal ">
                         {blog.title}
                       </h1>
@@ -135,9 +135,11 @@ const Services1 = () => {
                           </p>
                         ))}
                       </div>
-                      <button className="bg-[red] text-white px-5 py-5">
-                        Read more
-                      </button>
+                      <div>
+                        <button className="bg-[red] text-white px-5 py-5">
+                          Read more
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}

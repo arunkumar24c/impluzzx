@@ -10,7 +10,7 @@ const About = () => {
         {/* 1 */}
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full ">
           <Image
-            src={"/assest/img1.jpg"}
+            src={"/assest/ban2.avif"}
             width={300}
             height={100}
             alt="#"

@@ -8,6 +8,9 @@ import { CiLocationOn } from "react-icons/ci";
 import { AiFillContacts } from "react-icons/ai";
 import Image from "next/image";
 
+import { HiDotsCircleHorizontal } from "react-icons/hi";
+import { FaInstagram, FaWhatsapp, FaFacebook, FaYoutube } from "react-icons/fa";
+
 export default function Footer() {
   let Links = [
     { name: "About Us", link: "/" },
@@ -16,9 +19,13 @@ export default function Footer() {
     { name: "Terms & Condition", link: "/" },
     { name: "privacy-policy", link: "/" },
   ];
+  const [showIcons, setShowIcons] = useState(false);
 
+  const toggleIcons = () => {
+    setShowIcons(!showIcons);
+  };
   return (
-    <div className="bg-black">
+    <div className="bg-black relative">
       <footer className="brand-container pt-10 px-5">
         <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-y-5 justify-between items-start pb-5">
           {/* text  */}
@@ -93,8 +100,6 @@ export default function Footer() {
               <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
                 Merchandise
               </p>
-
-             
             </div>
           </div>
           {/* email 3 section */}
@@ -135,6 +140,50 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+      {/* social media icomn */}
+      <div className="fixed bottom-9 right-7">
+        {/* Setting */}
+        <div className="relative">
+          <div onClick={toggleIcons} className="cursor-pointer">
+            <p>
+              <HiDotsCircleHorizontal
+                className="text-white bg-black rounded-full"
+                size={45}
+              />
+            </p>
+          </div>
+
+          {/* Social Icons */}
+          {showIcons && (
+            <div className="flex flex-col space-y-2 absolute bottom-full right-0 bg-transparent p-4 rounded-md ">
+              <div className="transform transition-all duration-500 hover:-translate-y-1 hover:scale-110">
+                <FaInstagram
+                  className="text-pink-500 cursor-pointer"
+                  size={30}
+                />
+              </div>
+              <div className="transform transition-all duration-500 hover:-translate-y-1 hover:scale-110">
+                <a href="https://wa.me/+919025833351" target="_blank">
+                  {" "}
+                  <FaWhatsapp
+                    className="text-green-500 cursor-pointer"
+                    size={30}
+                  />
+                </a>
+              </div>
+              <div className="transform transition-all duration-500 hover:-translate-y-1 hover:scale-110">
+                <FaFacebook
+                  className="text-blue-500 cursor-pointer"
+                  size={30}
+                />
+              </div>
+              <div className="transform transition-all duration-500 hover:-translate-y-1 hover:scale-110">
+                <FaYoutube className="text-red-500 cursor-pointer" size={30} />
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 }

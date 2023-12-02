@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { GiEarthAfricaEurope } from "react-icons/gi";
+import { GrCompliance } from "react-icons/gr";
+import { FaSeedling } from "react-icons/fa6";
 import { BsTruck } from "react-icons/bs";
+import { FaTruckArrowRight } from "react-icons/fa6";
 
 const Company = () => {
   return (
@@ -17,7 +19,7 @@ const Company = () => {
             <div className="flex justify-between gap-2 px-2 py-2">
               <div>
                 <p>
-                  <BsTruck size={45} />
+                  <FaSeedling size={45} />
                 </p>
               </div>
               <div>
@@ -33,7 +35,7 @@ const Company = () => {
             <div className="flex justify-between gap-2 px-2 py-2">
               <div>
                 <p>
-                  <BsTruck size={45} />
+                  <FaTruckArrowRight size={45} />
                 </p>
               </div>
               <div>
@@ -49,7 +51,7 @@ const Company = () => {
             <div className="flex justify-between gap-2 px-2 py-2">
               <div>
                 <p>
-                  <BsTruck size={45} />
+                  <GrCompliance size={45} />
                 </p>
               </div>
               <div>
@@ -72,7 +74,7 @@ const Company = () => {
         {/* 2 */}
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full ">
           <Image
-            src={"/assest/img1.jpg"}
+            src={"/assest/imgs.jpg"}
             width={300}
             height={100}
             alt="#"

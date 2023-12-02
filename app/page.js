@@ -5,7 +5,7 @@ import About from "./homecomponent/About";
 import Services from "./homecomponent/Services";
 import Skill from "./homecomponent/Skill";
 import Company from "./homecomponent/Company";
-import Team from "./homecomponent/Team";
+
 import Shipments from "./homecomponent/Shipments";
 import Quotes from "./homecomponent/Quotes";
 import Testimonial from "./homecomponent/Testimonial";
@@ -20,16 +20,16 @@ export default function Home() {
   return (
     <main>
       <Testimonial />
-      <Blog />
+      {/* <Blog /> */}
       <About />
       <Services />
-      <Skill />
+      {/* <Skill /> */}
       <Company />
-      <Team />
+      {/* <Team /> */}
       <Shipments />
       <Quotes />
       <Testimonials/>
-      <Logo />
+      {/* <Logo /> */}
     </main>
   );
 }

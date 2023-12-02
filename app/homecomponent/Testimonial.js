@@ -2,7 +2,6 @@
 import React, { useState, useRef, useCallback } from "react";
 import Glider from "react-glider";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
-import Image from "next/image";
 import "glider-js/glider.min.css";
 
 const data = [
@@ -14,7 +13,7 @@ const data = [
 
     content:
       "The export and import of fruits contribute significantly to global trade. Countries with favorable climates produce an abundance of diverse fruits, allowing for a rich exchange of flavors and nutrition. From tropical delights like mangoes and pineapples to temperate apples and berries, these exports enhance culinary experiences and support local economies. ",
-    url: "/assest/bg2.webp",
+    url: "/assest/fruitbanss.jpg",
     button: "Read More ",
     button1: "Free Quotes",
   },
@@ -26,7 +25,7 @@ const data = [
 
     content:
       "Seeds form the foundation of agricultural production. The import and export of seeds enable the transfer of technology, genetic diversity, and improved crop varieties. Access to quality seeds ensures sustainable farming practices and plays a crucial role in addressing food scarcity.",
-    url: "/assest/ban1.jpg",
+    url: "/assest/seed.jpg",
     button: "Read More ",
     button1: "Free Quotes",
   },
@@ -39,13 +38,15 @@ const data = [
 
     content:
       "The international meat trade involves a variety of products, from beef and poultry to seafood. Exporting and importing meats allow for a balanced distribution of protein sources globally. Adhering to stringent quality standards is paramount in ensuring food safety and meeting diverse cultural preferences. ",
-    url: "/assest/ban1.jpg",
+    url: "/assest/meatban.jpg",
     button: "Read More ",
     button1: "Free Quotes",
   },
 ];
 
 const Testimonial = () => {
+ 
+
   const gliderRef = useRef(null);
 
   const handleGliderNext = useCallback(() => {
@@ -55,7 +56,6 @@ const Testimonial = () => {
   const handleGliderPrev = useCallback(() => {
     gliderRef.current.scrollItem("prev");
   }, [gliderRef]);
-
   return (
     <div className="relative  py-16 ">
       <Glider
@@ -66,6 +66,10 @@ const Testimonial = () => {
         scrollLock
         hasArrows={false}
         ref={gliderRef}
+        autoplay={3000} 
+        settings={{
+          rewind: true, 
+        }}
         responsive={[
           {
             breakpoint: 1024,
@@ -114,13 +118,13 @@ const Testimonial = () => {
       <div className="relative">
         <div className="glider-arrows flex flex-col items-center justify-center gap-3">
           <button
-            className=" absolute right-[1.5rem] xl:bottom-[19rem]  lg:bottom-[19rem] md:bottom-[19rem] bottom-3 glider-arrow  bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
+            className="absolute right-[1.5rem] bottom-3 glider-arrow bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
             onClick={handleGliderPrev}
           >
             <GoArrowLeft size={32} />
           </button>
           <button
-            className="absolute right-[1.5rem]  xl:bottom-[24rem]  lg:bottom-[24rem] md:bottom-[24rem] bottom-24 glider-arrow   bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
+            className="absolute right-[1.5rem] bottom-24 glider-arrow bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
             onClick={handleGliderNext}
           >
             <GoArrowRight size={32} />
@@ -140,19 +144,19 @@ const PopularDestinationCard = (props) => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="h-[100vh] py-10"
+      className="h-[100vh] py-10  "
     >
       <div className=" py-28 xl:px-10 lg:px-10 md:px-5 px-1">
         <div className="text-white py-16 flex flex-col gap-6 justify-start items-start  xl:px-10 lg:px-10 md:px-5 px-1">
           {/* text */}
           <h1 className="text-[24px] font-bold text-[red]">{props.name}</h1>
-          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-black ">
+          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-white ">
             {props.Founder}
           </h1>
           <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-[red] flex gap-2 ">
-            {props.Founders} <span className="text-black">{props.span}</span>
+            {props.Founders} <span className="text-white">{props.span}</span>
           </h1>
-          <p className="leading-normal font-bold text-black text-justify text-[18px] xl:w-[32rem] lg:w-[28rem] md:w-[28rem] w-full">
+          <p className="leading-normal font-medium text-white text-justify text-[18px] xl:w-[32rem] lg:w-[28rem] md:w-[28rem] w-full">
             {props.content}
           </p>
           {/* button  */}
