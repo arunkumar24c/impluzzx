@@ -118,13 +118,13 @@ const Testimonial = () => {
       <div className="relative">
         <div className="glider-arrows flex flex-col items-center justify-center gap-3">
           <button
-            className="absolute right-[1.5rem] bottom-3 glider-arrow bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
+            className="absolute right-[1.5rem] bottom-[106px] glider-arrow bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
             onClick={handleGliderPrev}
           >
             <GoArrowLeft size={32} />
           </button>
           <button
-            className="absolute right-[1.5rem] bottom-24 glider-arrow bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
+            className="absolute right-[1.5rem] bottom-[40px] glider-arrow bg-transparent border text-white px-3 py-3 rounded-2xl hover:bg-[red]/70"
             onClick={handleGliderNext}
           >
             <GoArrowRight size={32} />

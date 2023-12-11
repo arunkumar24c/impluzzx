@@ -40,6 +40,10 @@ const Quotes = () => {
               The end-to-end solution to drive higher productivity for
               call-center, digital sales, and feet-on-street teams
             </p>
+            <h2>Payment</h2>
+            <p className="text-justify font-medium text-[18px] leading-normal">
+              T/T (50 % Advance Rest 50 % Scan copy of BL).
+            </p>
             <div className="flex gap-2 items-center py-7">
               <p className="bg-[red] p-4 text-white">
                 <FiPhoneCall size={35} />
@@ -49,7 +53,7 @@ const Quotes = () => {
                   Call for any query!
                 </p>
                 <p className="font-bold text-[22px] text-[black]">
-                   +91 9025833351
+                  +91 9025833351
                 </p>
               </div>
             </div>

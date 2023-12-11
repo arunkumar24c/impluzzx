@@ -7,56 +7,86 @@ import { TiTick } from "react-icons/ti";
 const Services1 = () => {
   const blogData = [
     {
-      id: 3,
-      imageSrc: "/assest/s1.jpeg",
-      title: "15 Years Of Experience stocks ",
-      content:
-        "These are the basic materials used in manufacturing or production. For example, in the textile industry, raw materials could include cotton, wool, or synthetic fibers.",
-      elements: ["Raw Materials", "Finished Goods", "Inventory"],
-    },
-    {
       id: 1,
-      imageSrc: "/assest/s2.jpeg",
-      title:
-        "Efficient Supply Chain Management for Import and Export Companies",
+      imageSrc: "/assest/s1.jpeg",
+      title: "15 Years Of Experience Import ",
       content:
-        "In the dynamic world of international trade, an effective supply chain stands as the backbone of success for import and export companies. The core content of this intricate system comprises several key elements, each pivotal in ensuring a seamless flow of goods across borders",
-      elements: ["element1", "element2", "element3"],
+        "Impluzz is a global leader in AI-powered Data Analytics, delivering cutting-edge solutions and services to transform data into actionable insights. Since our inception in [year], Impluzz has been at the forefront of revolutionizing how businesses harness the power of data worldwide.",
+      elements: [
+        "Innovative Solutions",
+        "Client-Centric Approach",
+        "Cutting-Edge Technology",
+      ],
     },
     {
       id: 2,
-      imageSrc: "/assest/s3.jpeg",
-      title:
-        "Comprehensive Inventory Management for Import and Export Companies",
+      imageSrc: "/assest/s2.jpeg",
+      title: "15 Years Of Experience Export ",
       content:
-        "Efficient inventory management stands as the cornerstone of success for import and export companies. Maintaining a detailed inventory ensures a smooth flow of goods, reduces operational costs, and enhances overall productivity. By meticulously tracking incoming shipments, assessing stock levels, and managing outgoing orders, companies can optimize their supply chain processes. ",
-      elements: ["element1", "element2", "element3"],
+        "Impluzz is a globally renowned player in the export industry, providing comprehensive solutions and services to facilitate seamless trade and international business operations. Established , Impluzz has been instrumental in simplifying global trade processes and fostering international partnerships.",
+      elements: [
+        "Global Trade Platform",
+        "Customized Export Solutions",
+        " Supply Chain Tools",
+      ],
+    },
+    {
+      id: 3,
+      imageSrc: "/assest/s3.jpeg",
+      title: "Import and Export Documentation Services by Impluzz",
+      content:
+        "Impluzz offers comprehensive export documentation services to facilitate seamless international trade operations. Our expertise in export documentation ensures compliance with regulations, smooth transactions, and hassle-free global business interactions. ",
+      elements: [
+        "Customs Clearance Documents",
+        "Trade Compliance Reports",
+        "Export Licensing Support",
+      ],
     },
     {
       id: 4,
       imageSrc: "/assest/s4.jpeg",
-      title: "Diverse Merchandise Solutions for Import and Export Excellence",
+      title: "Logistics Solutions by Impluzz",
       content:
-        "As an import and export company dedicated to delivering exceptional global trade solutions, we offer an extensive array of merchandise to meet diverse market demands. Our comprehensive range includes but isn't limited to electronics, textiles, machinery, consumer goods, and more.",
-      elements: ["element1", "element2", "element3"],
+        "Impluzz offers comprehensive logistics solutions designed to optimize global trade operations. Our logistics expertise ensures efficient and reliable movement of goods across borders, enabling seamless international business transactions.",
+      elements: [
+        "Warehousing and Distribution",
+        "Transportation Management:",
+        "Customs Brokerage",
+      ],
+    },
+    {
+      id: 5,
+      imageSrc: "/assest/s4.jpeg",
+      title: "Our Academy Offerings",
+      content:
+        "Impluzz Academy is a hub for comprehensive learning and skill development in the realm of international trade and business. We offer specialized courses and training programs designed to equip individuals and businesses with the knowledge and skills necessary to excel in the global marketplace.",
+      elements: [
+        "Industry Experts",
+        "Practical Learning",
+        "Customized Programs",
+      ],
     },
   ];
   const buttonData = [
     {
       id: 1,
-      label: "Supply",
+      label: "Imports",
     },
     {
       id: 2,
-      label: "Inventory",
+      label: "Exports",
     },
     {
       id: 3,
-      label: "Stock",
+      label: "Documentation",
     },
     {
       id: 4,
-      label: "Merchandise",
+      label: "Logistics",
+    },
+    {
+      id: 5,
+      label: "Academy",
     },
   ];
   const [selectedCard, setSelectedCard] = useState(1);

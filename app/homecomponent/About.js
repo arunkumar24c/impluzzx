@@ -22,9 +22,9 @@ const About = () => {
           <div>
             <h2 className="text-[red] text-[27px] font-medium">ABOUT US</h2>
             <h1 className="text-[45px] pr-5 leading-normal font-bold">
-              We Are Expert{" "}
-              <span className="text-[red] "> in Export and Import of </span>{" "}
-              Indian Products
+              We Are Experts{" "}
+              <span className="text-[red] "> in Exports and Imports of </span>{" "}
+               Products
             </h1>
           </div>
           <p className="leading-normal text-justify text-[18px] text-black font-medium">
