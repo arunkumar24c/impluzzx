@@ -87,7 +87,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/tamarindfruit.jpg",
+      url: "/assest/tamarind.jpg",
       name: "Tamarind Fruit",
       des: "The tamarind fruit, with its brown, brittle shell, lending a distinctive flavor to cuisines across the globe.",
     },
@@ -189,7 +189,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Calf.jpg",
+      url: "/assest/calf1.jpeg",
       name: "Calf",
       des: "Calf meat, obtained from young cattle, is prized for its tender and delicate texture. Often utilized in various culinary creations, from succulent roasts to tender cutlets.",
     },
@@ -288,13 +288,13 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Coconutseed.jpg",
+      url: "/assest/Coconuts.jpeg",
       name: "Coconut Seed",
       des: "The coconut seed, commonly known as the coconut kernel or endosperm, is the edible part of the coconut fruit",
     },
     {
       id: 1,
-      url: "/assest/Groundnut.jpg",
+      url: "/assest/Groundnut1.jpeg",
       name: "Groundnut",
       des: "Groundnut, also known as peanut, is a legume with a nutrient-rich seed that is a popular snack and ingredient in various cuisines.",
     },
@@ -417,7 +417,7 @@ const Product = () => {
     },
     {
       id: 1,
-      url: "/assest/Dalda.jpg",
+      url: "/assest/dalda.jpg",
       name: "Dalda",
       des: "Dalda is a brand of hydrogenated vegetable oil commonly used in cooking.",
     },
@@ -468,7 +468,7 @@ const Product = () => {
     },
     {
       id: 1,
-      url: "/assest/Rubber.jpg",
+      url: "/assest/rubber.jpeg",
       name: "Rubber",
       des: "Rubber, a natural polymer derived from the latex of certain trees like the rubber tree (Hevea brasiliensis), is a crucial raw material for various industries. ",
     },
@@ -612,7 +612,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Coca.jpg",
+      url: "/assest/Coca1.webp",
       name: "Coca",
       des: "Coca, known for its stimulant properties, is the source of the alkaloid cocaine.",
     },
@@ -663,7 +663,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Sweetpumpkin.jpg",
+      url: "/assest/pumpkin1.jpg",
       name: "Sweet Pumpkin",
       des: "Sweet pumpkin, when unripe, has a firmer texture and a less sweet taste compared to its mature counterpart.",
     },
@@ -693,7 +693,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Elephant.jpg",
+      url: "/assest/Elephant1.jpeg",
       name: "Elephant Yam",
       des: " Elephant yam, with its starchy texture, is used in savory dishes like curries and fries. It absorbs flavors well and is a staple in certain Asian cuisines.",
     },

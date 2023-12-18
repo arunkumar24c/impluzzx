@@ -29,17 +29,13 @@ const Quotes = () => {
         {/* 1 */}
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full ">
           <div className="flex flex-col gap-3">
-            <p className="text-[18px] font-medium text-[red]">GET A QUOTE</p>
+            
             <div>
               <h1 className="text-[25px] font-bold text-black leading-normal">
-                Goodbye guesswork. Hello
-                <span className="text-[red]"> sales efficiency Quote</span>!
+                GET A<span className="text-[red]"> QUOTE</span>!
               </h1>
             </div>
-            <p className="text-justify font-medium text-[18px] leading-normal">
-              The end-to-end solution to drive higher productivity for
-              call-center, digital sales, and feet-on-street teams
-            </p>
+
             <h2>Payment</h2>
             <p className="text-justify font-medium text-[18px] leading-normal">
               T/T (50 % Advance Rest 50 % Scan copy of BL).
@@ -105,16 +101,46 @@ const Quotes = () => {
                     value="Select A Freight"
                     className="bg-blue text-black"
                   >
-                    Select A Freight
+                    Select A Product
                   </option>
                   <option value="Freight 1" className="bg-blue text-black">
-                    Freight 1
+                    Beverages
                   </option>
                   <option value="Freight 2" className="bg-blue text-black">
-                    Freight 2
+                    Cereals
                   </option>
                   <option value="Freight 3" className="bg-blue text-black">
-                    Freight 3
+                    Fibre crops
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Flowers
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Forest Products
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Fruits
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Live Stock, Poultry, Fisheries
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Oil seeds
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Oils and Fats
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Pulses
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Spices
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Vegetables
+                  </option>
+                  <option value="Freight 3" className="bg-blue text-black">
+                    Others
                   </option>
                 </select>
               </div>

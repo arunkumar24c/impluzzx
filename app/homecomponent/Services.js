@@ -1,56 +1,49 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
 const Services = () => {
   const serviceData = [
     {
-      imgSrc: "/assest/a7.jpeg",
+      imgSrc: "/assest/s11.jpeg",
       imgWidth: 300,
       imgHeight: 100,
-      title: "A Look into Impluzz Export Co.'s International Success",
+      title: "Imports industry",
       content:
-        "n today's interconnected world, international trade has become a cornerstone of economic growth. Businesses worldwide are venturing into import and export to expand their horizons and increase profitability. One such thriving company at the forefront of this movement is Impluzz Export Co.",
+        "Impluzz is a global leader in AI-powered Data Analytics, delivering cutting-edge solutions and services to transform data into actionable insights. Since our inception in [year], Impluzz has been at the forefront of revolutionizing how businesses harness the power of data worldwide.",
     },
     {
-      imgSrc: "/assest/a2.jpeg",
+      imgSrc: "/assest/s12.jpeg",
       imgWidth: 300,
       imgHeight: 100,
-      title: "Diverse Product Range",
+      title: "Exports industry",
       content:
-        "Impluzz Export Co. offers a diverse portfolio of products, catering to a variety of industries. From agricultural commodities to consumer electronics, they have strategically established partnerships with manufacturers worldwide. This diversity not only helps mitigate risks but also ensures a steady supply of in-demand products.",
+        "Impluzz is a globally renowned player in the export industry, providing comprehensive solutions and services to facilitate seamless trade and international business operations. Established , Impluzz has been instrumental in simplifying global trade processes and fostering international partnerships.",
     },
     {
-      imgSrc: "/assest/a3.jpeg",
+      imgSrc: "/assest/s13.jpeg",
       imgWidth: 300,
       imgHeight: 100,
-      title: "Global Network",
+      title: "Imports and Exports Documentation Services by Impluzz",
       content:
-        "What sets Impluzz Export Co. apart is its extensive network of partners and clients across the globe. They have successfully built relationships with suppliers and buyers in different countries, which has led to a robust and sustainable trading network. With a strong presence in key markets, they can efficiently source and distribute products on a global scale.",
+        "Impluzz offers comprehensive export documentation services to facilitate seamless international trade operations. Our expertise in export documentation ensures compliance with regulations, smooth transactions, and hassle-free global business interactions.",
     },
     {
-      imgSrc: "/assest/a8.jpeg",
+      imgSrc: "/assest/s14.jpeg",
       imgWidth: 300,
       imgHeight: 100,
-      title: "Quality Assurance",
+      title: "Logistics Solutions by Impluzz",
       content:
-        "Quality is a top priority for Impluzz Export Co. They adhere to strict quality control measures and certifications to ensure that their products meet or exceed international standards. This commitment to quality has garnered trust among their clients and has been a cornerstone of their success.",
+        "Impluzz offers comprehensive logistics solutions designed to optimize global trade operations. Our logistics expertise ensures efficient and reliable movement of goods across borders, enabling seamless international business transactions.",
     },
     {
-      imgSrc: "/assest/a5.jpeg",
+      imgSrc: "/assest/s15.jpeg",
       imgWidth: 300,
       imgHeight: 100,
-      title: "Innovative Solutions",
+      title: "Our Academy Offerings",
       content:
-        "In an ever-changing global market, innovation is essential. Impluzz Export Co. invests in the latest technology and logistics solutions to streamline their import and export processes. This results in cost-effective operations and faster delivery times for their customers.",
-    },
-    {
-      imgSrc: "/assest/a6.jpeg",
-      imgWidth: 300,
-      imgHeight: 100,
-      title: "Sustainability and Ethical Practices",
-      content:
-        "Impluzz Export Co. believes in responsible and sustainable business practices. They actively promote eco-friendly initiatives and support ethical trading. This approach not only resonates with conscious consumers but also aligns with international regulations and standards.",
+        "Impluzz Academy is a hub for comprehensive learning and skill development in the realm of international trade and business. We offer specialized courses and training programs designed to equip individuals and businesses with the knowledge and skills necessary to excel in the global marketplace.",
     },
   ];
 
@@ -81,15 +74,17 @@ const Services = () => {
                   <p>{service.content}</p>
                   <div className="relative cursor-pointer group">
                     <div className="mt-2">
-                      <p className="flex items-center ">
-                        <BsArrowRight
-                          className="bg-[red] rounded-s-md h-9 w-11 text-white px-2"
-                          size={25}
-                        />
-                        <span className="absolute text-white rounded-e-md text-[18px] font-semibold bg-[red] py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
-                          Read more
-                        </span>
-                      </p>
+                      <Link href="/Service">
+                        <p className="flex items-center ">
+                          <BsArrowRight
+                            className="bg-[red] rounded-s-md h-9 w-11 text-white px-2"
+                            size={25}
+                          />
+                          <span className="absolute text-white rounded-e-md text-[18px] font-semibold bg-[red] py-2 px-2 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:left-[10%]">
+                            Read more
+                          </span>
+                        </p>
+                      </Link>
                     </div>
                   </div>
                 </div>

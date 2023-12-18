@@ -25,69 +25,23 @@ const Shipments = () => {
   }, [count]);
 
   return (
-    <div className="brand-container px-5 py-16">
-      <div className="flex flex-col xl:flex-row md:flex-col lg:flex-row justify-center items-center gap-5">
-        {/* 1 */}
-        <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="w-full xl:w-1/2 lg:w-1/2 md:w-full"
-        >
-          <div className="flex flex-col gap-3">
-            <p className="text-[18px] font-medium text-[red]">SOME FACTS</p>
-            <div>
-              <h1 className="text-[25px] font-bold text-black leading-normal">
-                #1 Place To Manage All Of Your
-              </h1>
-              <h1 className="text-[25px] font-bold text-black leading-normal">
-                {" "}
-                Shipments
-              </h1>
-            </div>
-            <p className="text-justify font-medium text-[18px] leading-normal">
-              At Impluzz, we understand the intricacies of managing shipments,
-              both domestic and international. Whether you&apos;re an
-              established business or a startup, our comprehensive shipment
-              management services are tailored to meet your unique logistics
-              needs. We take the hassle out of shipping, ensuring your goods
-              reach their destination seamlessly and on time.
-            </p>
-            <motion.div
-              initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 1, duration: 1 }}
-              className="flex gap-2 items-center py-7"
-            >
-              <p className="bg-[red] p-4 text-white">
-                <FiPhoneCall size={35} />
-              </p>
-              <div className="flex flex-col gap-3">
-                <p className="font-semibold text-[18px] text-[red]">
-                  Call for any query!
-                </p>
-                <p className="font-bold text-[22px] text-[black]">
-                  +91 9025833351
-                </p>
-              </div>
-            </motion.div>
-          </div>
-        </motion.div>
-        {/* 2 */}
+    <div className="brand-container w-full">
+      <h1 className="text-center pb-6">Shipments</h1>
+      <div className="">
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="w-full xl:w-1/2 lg:w-1/2 md:w-full"
+          className="w-full "
         >
           <motion.div
-            className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-4"
+            className="grid grid-cols-3 gap-4"
             initial="hidden"
             animate="visible"
           >
             {/* 1 */}
             <motion.div
-              className="flex-col flex gap-4 bg-[green] text-white px-4 py-3"
+              className="flex-col justify-center items-center flex gap-4 bg-[green] text-white px-4 py-16"
               variants={cardVariants}
             >
               <p>
@@ -98,7 +52,7 @@ const Shipments = () => {
             </motion.div>
             {/* 2 */}
             <motion.div
-              className="flex-col flex gap-4 bg-[blue] text-white px-4 py-3"
+              className="flex-col flex justify-center items-center gap-4 bg-[blue] text-white px-4 py-16"
               variants={cardVariants}
             >
               <p>
@@ -107,20 +61,10 @@ const Shipments = () => {
               <motion.h1 variants={countVariants}>{count}</motion.h1>
               <p>support</p>
             </motion.div>
-            {/* 3 */}
-            <motion.div
-              className="flex-col flex gap-4 bg-[orange] text-white px-4 py-3"
-              variants={cardVariants}
-            >
-              <p>
-                <FiPhoneCall size={35} />
-              </p>
-              <motion.h1 variants={countVariants}>{count}</motion.h1>
-              <p>Telephone</p>
-            </motion.div>
+
             {/* 4 */}
             <motion.div
-              className="flex-col flex gap-4 bg-[yellow] text-white px-4 py-3"
+              className="flex-col flex justify-center items-center gap-4 bg-[yellow] text-white px-4 py-16"
               variants={cardVariants}
             >
               <p>

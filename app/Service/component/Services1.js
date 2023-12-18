@@ -9,7 +9,7 @@ const Services1 = () => {
     {
       id: 1,
       imageSrc: "/assest/s1.jpeg",
-      title: "15 Years Of Experience Import ",
+      title: "Import ",
       content:
         "Impluzz is a global leader in AI-powered Data Analytics, delivering cutting-edge solutions and services to transform data into actionable insights. Since our inception in [year], Impluzz has been at the forefront of revolutionizing how businesses harness the power of data worldwide.",
       elements: [
@@ -21,7 +21,7 @@ const Services1 = () => {
     {
       id: 2,
       imageSrc: "/assest/s2.jpeg",
-      title: "15 Years Of Experience Export ",
+      title: "Export ",
       content:
         "Impluzz is a globally renowned player in the export industry, providing comprehensive solutions and services to facilitate seamless trade and international business operations. Established , Impluzz has been instrumental in simplifying global trade processes and fostering international partnerships.",
       elements: [

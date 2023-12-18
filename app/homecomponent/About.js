@@ -24,7 +24,7 @@ const About = () => {
             <h1 className="text-[45px] pr-5 leading-normal font-bold">
               We Are Experts{" "}
               <span className="text-[red] "> in Exports and Imports of </span>{" "}
-               Products
+              Global Products
             </h1>
           </div>
           <p className="leading-normal text-justify text-[18px] text-black font-medium">
@@ -32,11 +32,11 @@ const About = () => {
             of over many years. The company is strategically located in
             Coimbatore, in the peninsular region of India, to serve its clients
             across worldwide. Our parent company was established in 2008.
-            Along-standing presence for over one decade in the region is a
-            testimony of the company’s passion for quality.
+            Along-standing presence for over a decade in the region is a
+            testimony of the companys passion for quality. 
           </p>
           <p className="leading-normal text-justify text-[18px] text-black font-medium">
-            impulzz cosmo impex Pvt Limited is an established Exports & Imports
+            Impulzz cosmo impex Pvt Limited is an established Exports & Imports
             Oriented Company recognized by the Government of INDIA with a
             Strength of 100+ Regular & Part time employees and over 1000+
             exclusive contract farmers. Our Core team is a mix of budding,
@@ -80,10 +80,11 @@ const About = () => {
           quality and price“. We Invite You to Join the Path to Prosperity,
           Profit , Perfection and Peace Thank you.
         </p>
-        <button className="bg-[red] text-white py-3 px-8">Explore More</button>
+        {/* <button className="bg-[red] text-white py-3 px-8">Explore More</button> */}
       </div>
     </div>
   );
 };
 
 export default About;
+

@@ -15,7 +15,7 @@ export default function Footer() {
   let Links = [
     { name: "About Us", link: "/" },
     { name: "Contact Us ", link: "/" },
-    { name: "Our Services", link: "/" },
+    // { name: "Our Services", link: "/" },
     { name: "Terms & Condition", link: "/" },
     { name: "privacy-policy", link: "/" },
   ];
@@ -27,10 +27,10 @@ export default function Footer() {
   return (
     <div className="bg-black relative">
       <footer className="brand-container pt-10 px-5">
-        <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-y-5 justify-between items-start pb-5">
+        <div className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-y-5 justify-center items-start  pb-5">
           {/* text  */}
           {/* 1 */}
-          <div className="text-white py-2 flex flex-col gap-2 ">
+          <div className="text-white  py-16 flex flex-col gap-2 ">
             <Link href="/">
               <Image
                 src={"/assest/logo-white1.png"}
@@ -39,6 +39,51 @@ export default function Footer() {
                 className=""
               />
             </Link>
+          </div>
+
+          {/* link 2 */}
+          <div className="flex flex-col gap-5">
+            <h1 className="text-white text-[18px]">Services</h1>
+            <div className="flex flex-col gap-6">
+              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white ">
+                Imports
+              </p>
+
+              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
+                Exports
+              </p>
+
+              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
+                Documentation
+              </p>
+
+              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
+                Logistics
+              </p>
+              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
+                Academy
+              </p>
+            </div>
+          </div>
+          {/* email 3 section */}
+          <div className="flex flex-col gap-5">
+            <h1 className="text-white text-[18px] cursor-pointer">
+              Quick Links
+            </h1>
+            <div className="flex flex-col gap-6">
+              {Links.map((link) => (
+                <p
+                  key={link.name}
+                  className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white"
+                >
+                  {link.name}
+                </p>
+              ))}
+            </div>
+          </div>
+          {/* 4 */}
+          <div className="text-white py-2 flex flex-col gap-2 ">
+            <h1 className="text-white text-[18px]">Address</h1>
             <p className="flex gap-2 text-[#6b7280] items-center">
               <CiLocationOn />
               #689,VKK Menon Road, New Siddha Pudur, Coimbatore-641044 Tamilnadu
@@ -79,64 +124,6 @@ export default function Footer() {
                 </a>
               </p>
             </div>
-          </div>
-
-          {/* link 2 */}
-          <div className="flex flex-col gap-5">
-            <h1 className="text-white text-[18px]">Services</h1>
-            <div className="flex flex-col gap-6">
-              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white ">
-                Supply
-              </p>
-
-              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Inventory
-              </p>
-
-              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Stock
-              </p>
-
-              <p className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white  ">
-                Merchandise
-              </p>
-            </div>
-          </div>
-          {/* email 3 section */}
-          <div className="flex flex-col gap-5">
-            <h1 className="text-white text-[18px] cursor-pointer">
-              Quick Links
-            </h1>
-            <div className="flex flex-col gap-6">
-              {Links.map((link) => (
-                <p
-                  key={link.name}
-                  className="text-[#6b7280] text-[14px] cursor-pointer font-semibold  hover:text-white"
-                >
-                  {link.name}
-                </p>
-              ))}
-            </div>
-          </div>
-          {/* 4 */}
-          <div className="flex flex-col h-full justify-center  gap-5 ">
-            <p className="text-[18px]  text-[#ffffff] font-bold ">Newsletter</p>
-            <p className="text-[16px] text-[#6b7280]">
-              Impulse is the best parts shop of your daily nutritions. What kind
-              of nutrition do you need you can get here soluta nobis
-            </p>
-            <form className="flex flex-col gap-2">
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                class=" w-full h-[47px]  text-[15px] bg-white pl-4 text-black border-b border-black focus:outline-none"
-                required
-              />
-              <button class="w-[87px] h-[47px] text-[15px] bg-[red] text-white focus:outline-none p-2">
-                Submit
-              </button>
-            </form>
           </div>
         </div>
       </footer>

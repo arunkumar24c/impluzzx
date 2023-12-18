@@ -7,40 +7,40 @@ import "glider-js/glider.min.css";
 const data = [
   {
     name: "Impulzz cosmo impex Pvt Limited",
-    Founder: "FAST AND MORE TRUSTED ",
-    Founders: "Import and Export",
+    
+    Founders: "Imports and Exports",
     span: "Products",
 
     content:
       "The export and import of fruits contribute significantly to global trade. Countries with favorable climates produce an abundance of diverse fruits, allowing for a rich exchange of flavors and nutrition. From tropical delights like mangoes and pineapples to temperate apples and berries, these exports enhance culinary experiences and support local economies. ",
     url: "/assest/fruitbanss.jpg",
     button: "Read More ",
-    button1: "Free Quotes",
+    
   },
   {
     name: "Impulzz cosmo impex Pvt Limited",
-    Founder: "FAST AND MORE TRUSTED ",
-    Founders: "Import and Export",
+    
+    Founders: "Imports and Exports",
     span: "SEED",
 
     content:
       "Seeds form the foundation of agricultural production. The import and export of seeds enable the transfer of technology, genetic diversity, and improved crop varieties. Access to quality seeds ensures sustainable farming practices and plays a crucial role in addressing food scarcity.",
     url: "/assest/seed.jpg",
     button: "Read More ",
-    button1: "Free Quotes",
+    
   },
 
   {
     name: "Impulzz cosmo impex Pvt Limited",
-    Founder: "FAST AND MORE TRUSTED ",
-    Founders: "Import and Export",
+    
+    Founders: "Imports and Exports",
     span: "MEATS",
 
     content:
       "The international meat trade involves a variety of products, from beef and poultry to seafood. Exporting and importing meats allow for a balanced distribution of protein sources globally. Adhering to stringent quality standards is paramount in ensuring food safety and meeting diverse cultural preferences. ",
     url: "/assest/meatban.jpg",
     button: "Read More ",
-    button1: "Free Quotes",
+    
   },
 ];
 
@@ -150,9 +150,7 @@ const PopularDestinationCard = (props) => {
         <div className="text-white py-16 flex flex-col gap-6 justify-start items-start  xl:px-10 lg:px-10 md:px-5 px-1">
           {/* text */}
           <h1 className="text-[24px] font-bold text-[red]">{props.name}</h1>
-          <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-white ">
-            {props.Founder}
-          </h1>
+          
           <h1 className="xl:text-[38px] lg:text-[38px] md:text-[30px] text-2xl text-[red] flex gap-2 ">
             {props.Founders} <span className="text-white">{props.span}</span>
           </h1>
@@ -161,12 +159,8 @@ const PopularDestinationCard = (props) => {
           </p>
           {/* button  */}
           <div className="flex xl:flex-row md:flex-col lg:flex-row flex-col gap-4 ">
-            <button className="bg-[red] px-5 py-3 hover:bg-[red]/60">
-              {props.button}
-            </button>
-            <button className="bg-[#05103b] px-5 py-3 hover:bg-[#05103b]/60">
-              {props.button1}
-            </button>
+            
+           
           </div>
         </div>
       </div>

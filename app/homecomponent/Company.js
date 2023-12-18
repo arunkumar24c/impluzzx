@@ -12,7 +12,7 @@ const Company = () => {
         {/* 2 */}
         <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col gap-8 py-4">
           <div>
-            <h1>We Are Trusted Export and Import Since 1990</h1>
+            <h1>we are trusted exports and imports company since 2008</h1>
           </div>
           <div className="flex flex-col justify-between gap-8">
             {/* 1st */}
@@ -66,9 +66,9 @@ const Company = () => {
             </div>
           </div>
           <div>
-            <button className="bg-[red] text-white py-3 px-8">
+            {/* <button className="bg-[red] text-white py-3 px-8">
               Explore More
-            </button>
+            </button> */}
           </div>
         </div>
         {/* 2 */}
