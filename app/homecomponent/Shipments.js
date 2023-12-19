@@ -11,7 +11,7 @@ const Shipments = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const givenCount = 1234;
+    const givenCount = 200;
 
     const timer = setInterval(() => {
       if (count < givenCount) {
@@ -23,6 +23,22 @@ const Shipments = () => {
 
     return () => clearInterval(timer);
   }, [count]);
+
+  const [counts, setCounts] = useState(0);
+
+  useEffect(() => {
+    const givenCounts = 550;
+
+    const timer = setInterval(() => {
+      if (counts < givenCounts) {
+        setCounts(count + 1);
+      } else {
+        clearInterval(timer);
+      }
+    }, 1);
+
+    return () => clearInterval(timer);
+  }, [counts]);
 
   return (
     <div className="brand-container w-full">
@@ -47,7 +63,7 @@ const Shipments = () => {
               <p>
                 <BsTrainFreightFront size={35} />
               </p>
-              <motion.h1 variants={countVariants}>{count}</motion.h1>
+              <motion.h1 variants={countVariants}>{count}+</motion.h1>
               <p>happy client</p>
             </motion.div>
             {/* 2 */}
@@ -58,7 +74,7 @@ const Shipments = () => {
               <p>
                 <AiFillContacts size={35} />
               </p>
-              <motion.h1 variants={countVariants}>{count}</motion.h1>
+              <motion.h1 variants={countVariants}>550+</motion.h1>
               <p>support</p>
             </motion.div>
 

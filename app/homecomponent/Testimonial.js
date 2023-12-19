@@ -35,7 +35,6 @@ const data = [
     
     Founders: "Imports and Exports",
     span: "MEATS",
-
     content:
       "The international meat trade involves a variety of products, from beef and poultry to seafood. Exporting and importing meats allow for a balanced distribution of protein sources globally. Adhering to stringent quality standards is paramount in ensuring food safety and meeting diverse cultural preferences. ",
     url: "/assest/meatban.jpg",

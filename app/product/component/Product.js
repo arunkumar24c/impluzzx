@@ -177,8 +177,8 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Buffalo.jpg",
-      name: "He Buffalo",
+      url: "/assest/buffalo1.jpg",
+      name: " Buffalo",
       des: "Buffalo meat, derived from the male water buffalo, known as the 'he buffalo,' is prized for its lean quality and distinctive taste.",
     },
     {
@@ -417,7 +417,7 @@ const Product = () => {
     },
     {
       id: 1,
-      url: "/assest/dalda.jpg",
+      url: "/assest/dalda.webp",
       name: "Dalda",
       des: "Dalda is a brand of hydrogenated vegetable oil commonly used in cooking.",
     },
@@ -612,7 +612,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Coca1.webp",
+      url: "/assest/coca1.webp",
       name: "Coca",
       des: "Coca, known for its stimulant properties, is the source of the alkaloid cocaine.",
     },
@@ -670,7 +670,7 @@ const Product = () => {
     {
       id: 2,
       url: "/assest/Saffron.jpg",
-      name: "White Pumpkin",
+      name: "Saffron",
       des: "White pumpkin, with its mild flavor and soft texture, is often used in curries, stews, and desserts.",
     },
     {
@@ -681,7 +681,7 @@ const Product = () => {
     },
     {
       id: 2,
-      url: "/assest/Bottlegourd.jpg",
+      url: "/assest/bottlegourd.jpg",
       name: "Bottle Gourd",
       des: "Bottle gourd is commonly used in curries and stews. Its mild taste and ability to absorb flavors make it a versatile vegetable in many cuisines.",
     },

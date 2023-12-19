@@ -8,7 +8,7 @@ const Services1 = () => {
   const blogData = [
     {
       id: 1,
-      imageSrc: "/assest/s1.jpeg",
+      imageSrc: "/assest/s11.jpeg",
       title: "Import ",
       content:
         "Impluzz is a global leader in AI-powered Data Analytics, delivering cutting-edge solutions and services to transform data into actionable insights. Since our inception in [year], Impluzz has been at the forefront of revolutionizing how businesses harness the power of data worldwide.",
@@ -20,7 +20,7 @@ const Services1 = () => {
     },
     {
       id: 2,
-      imageSrc: "/assest/s2.jpeg",
+      imageSrc: "/assest/s12.jpeg",
       title: "Export ",
       content:
         "Impluzz is a globally renowned player in the export industry, providing comprehensive solutions and services to facilitate seamless trade and international business operations. Established , Impluzz has been instrumental in simplifying global trade processes and fostering international partnerships.",
@@ -32,7 +32,7 @@ const Services1 = () => {
     },
     {
       id: 3,
-      imageSrc: "/assest/s3.jpeg",
+      imageSrc: "/assest/s13.jpeg",
       title: "Import and Export Documentation Services by Impluzz",
       content:
         "Impluzz offers comprehensive export documentation services to facilitate seamless international trade operations. Our expertise in export documentation ensures compliance with regulations, smooth transactions, and hassle-free global business interactions. ",
@@ -44,7 +44,7 @@ const Services1 = () => {
     },
     {
       id: 4,
-      imageSrc: "/assest/s4.jpeg",
+      imageSrc: "/assest/s14.jpeg",
       title: "Logistics Solutions by Impluzz",
       content:
         "Impluzz offers comprehensive logistics solutions designed to optimize global trade operations. Our logistics expertise ensures efficient and reliable movement of goods across borders, enabling seamless international business transactions.",
@@ -56,7 +56,7 @@ const Services1 = () => {
     },
     {
       id: 5,
-      imageSrc: "/assest/s4.jpeg",
+      imageSrc: "/assest/s15.jpeg",
       title: "Our Academy Offerings",
       content:
         "Impluzz Academy is a hub for comprehensive learning and skill development in the realm of international trade and business. We offer specialized courses and training programs designed to equip individuals and businesses with the knowledge and skills necessary to excel in the global marketplace.",
@@ -165,11 +165,11 @@ const Services1 = () => {
                           </p>
                         ))}
                       </div>
-                      <div>
+                      {/* <div>
                         <button className="bg-[red] text-white px-5 py-5">
                           Read more
                         </button>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ))}
